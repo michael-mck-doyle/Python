@@ -14,3 +14,17 @@
 	- Calculate how many seconds are in a year.
 
 '''
+
+print ("hello world")
+
+print ("hello you")
+
+year = 1
+days = 365
+hours = 24
+minutes = 60
+seconds = 60
+numberOfSeconds = year * days * hours * minutes * seconds
+print ("The number of seconds in a year is:")
+print (numberOfSeconds)
+
