@@ -9,5 +9,13 @@ NOTE: We will use the input() funtion to collect users input. An example is demo
 # the input of the user will be saved in the variable days.
 # because the input() function collects the input as a string, we have to convert it to an int
 # The string passed to the input() function is what the user is prompted with
+
 days = int(input("Please enter a number in days between 1 and 1,000,000,000: "))
+hours = 24
+minutes = 60
+seconds = 60
+seconds = days * hours * minutes * seconds
+
+print(seconds)
+
 
