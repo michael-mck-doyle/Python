@@ -8,3 +8,13 @@ Result: #ore python progra##ing please
 
 '''
 
+
+r = (input("Please enter a string of words: "))
+s = (input("Please enter a symbol: "))
+firstchar = r[0]
+
+r = r.replace(firstchar, "*")
+
+print(r)
+print(s)
+
