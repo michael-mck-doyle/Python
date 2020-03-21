@@ -1,0 +1,25 @@
+
+
+# Comparison operators work on numbers...
+print(1 < 2)  # who guessed it? ;)
+print(1 == 1)  # True again!
+# and also on other datatypes (if it is implemented internally!)
+print("hello" != "hola")  # python is not multilingual...
+
+# Test all the different operators and make sure you understand what they do. Can you compare strings using > and <?
+
+print('a' < 'b')
+print('b' > 'a')
+print('b' == 'a')
+
+
+'''
+Operator	Meaning	Example	Result
+<	Less than	1 < 2	True
+<=	Less than or equal to	1 <= 1	True
+>	Greater than	2 > 1	True
+>=	Greater than or equal to  	2 >= 2	True
+==	Equal to	2 == 2	True
+!=	Not equal to	2 != 1	True
+
+'''

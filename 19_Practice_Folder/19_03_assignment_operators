@@ -1,0 +1,19 @@
+
+x = 10
+print(x)
+x = x + 10  # setting x equal to the value of x plus 10
+print(x)
+# can also be written as
+x += 10  # adding 10 to the value of x
+
+print(x)
+
+'''
+Operator	Meaning
++=	Add the value on the right to the variable on the left
+-=	Subtract the value on the right from the variable on the left
+*=	Multiply with the variable on the right, and add to the result on the left
+/=	Divide by the variable on the right, and add to the result on the left
+
+'''
+
