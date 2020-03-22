@@ -8,6 +8,9 @@ print(bucket_list[0])  # this is how we can access individual items in the list
 bucket_list[1] += ' that I planted'
 print(bucket_list[1])
 
+bucket_list[0] += " with friends"
+print(bucket_list)
+
 print(bucket_list[2])
 
 # ---- continuing the codeblock from above ---- #
@@ -21,6 +24,9 @@ bucket_list.remove(bucket_list[-1])
 
 print(bucket_list)
 
+print("--------------------")
+print("Aliaising")
+print("_________")
 #Aliaising - Since variables refer to objects, if we assign one variable to another, both variables refer to the same object:
 a = [81, 82, 83]
 b = a
@@ -38,3 +44,58 @@ print(a is b)
 
 b[0] = 5
 print(a)
+
+print("------------------")
+print("Accessing Values in Lists")
+print("__________________")
+
+ist1 = ['physics', 'chemistry', 1997, 2000];
+list2 = [1, 2, 3, 4, 5 ];
+list3 = ["a", "b", "c", "d"]
+list1 = ['physics', 'chemistry', 1997, 2000];
+list2 = [1, 2, 3, 4, 5, 6, 7 ];
+print ("list1[0]: ", list1[0])
+print ("list2[1:5]: ", list2[1:5])
+
+
+print("------------------")
+print("Updating Lists")
+print("__________________")
+list = ['physics', 'chemistry', 1997, 2000];
+print ("Value available at index 2 : ")
+print (list[2])
+list[2] = 2001;
+print ("New value available at index 2 : ")
+print (list[2])
+
+print("------------------")
+print("Deleting List Elements")
+print("__________________")
+# use the 'del' command and the index value to delete an element from a list
+
+list1 = ['physics', 'chemistry', 1997, 2000];
+print (list1)
+del list1[2];
+print ("After deleting value at index 2 : ")
+print (list1)
+
+print("------------------")
+print("Methods for Lists")
+print("__________________")
+
+# - Appends object obj to list
+list_fish = ['cod', 'halibut', 'haddock']
+list_fish.append('mackeral')
+print(list_fish)
+
+# - Reverses objects of list in place
+list_fish.reverse()
+print(list_fish)
+
+for task in list_fish:
+    print(task)
+
+#list.remove(item)
+#list.sort()
+#del(list[index])
+
