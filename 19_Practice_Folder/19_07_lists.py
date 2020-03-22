@@ -99,3 +99,23 @@ for task in list_fish:
 #list.sort()
 #del(list[index])
 
+numbers = [1, 2, 3]
+#numbers.insert(1, 1)
+#numbers.extend([4, 5])
+#numbers += [4, 5]
+# numbers.append(4)
+print(numbers)
+
+numbers = [42, 1, 10]
+print(numbers)
+numbers.extend([5])
+print(numbers)
+numbers.remove(1)
+print(numbers)
+
+aList = ['xyz', 'zara', 'abc', 'xyz']
+aList.sort()
+print(aList)
+
+
+
