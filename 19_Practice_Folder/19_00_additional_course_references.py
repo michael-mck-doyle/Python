@@ -38,11 +38,23 @@ Identity Operators
 Python Operators Precedence Table
 - https://www.tutorialspoint.com/python/operators_precedence_example.htm
 
-Lists - Aliasing
-- https://runestone.academy/runestone/books/published/thinkcspy/Lists/Aliasing.html
+__ Datastructures __
+__ Lists - Aliasing __
+Aliasing - https://runestone.academy/runestone/books/published/thinkcspy/Lists/Aliasing.html
+More on Lists - https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
 
-Datastructures - More On Lists
-- https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
-
-
+__ Tuples __
+5.3 Tuples and Sequences - https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences
+Python - Tuples - https://www.tutorialspoint.com/python/python_tuples.htm
 '''
+
+
+tup1 = (12, 34.56);
+tup2 = ('abc', 'xyz');
+
+# Following action is not valid for tuples
+# tup1[0] = 100;
+
+# So let's create a new tuple as follows
+tup3 = tup1 + tup2;
+print tup3;
