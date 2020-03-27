@@ -1,5 +1,9 @@
 '''
+__References__
+Remove white space from a string - https://www.journaldev.com/23763/python-remove-spaces-from-string
 
+
+__Exercise__
 Write a script that takes a sentence from the user and returns:
 
 the number of lower case letters
@@ -24,20 +28,71 @@ Total chars: 28
 
 import string
 
+# prompt user to enter a string
 r = (input("write a sentence about yourself: "))
 
+
+# print punctuation chars contained in the string
+countpunc = 0
 for c in r:
     # See if the char is punctuation.
     if c in string.punctuation:
         print("Punctuation: " + c)
+        countpunc +=1
+print("Punctuation character count = " + str(countpunc))
 
-l = len(r)
-print("The total number of characters is: " + str(l))
+print()
+print()
 
-print("Upper case characters: ", sum(1 for c in r if c.isupper()))
-print("Lower case characters: ", sum(1 for c in r if c.islower()))
 
-s = r.strip()
+# use replace command to remove all white spaces
+r = r.replace(" ", "")
+print("Removing all spaces:")
+print(r)
 
-print(s)
+print()
+print()
+
+
+# counts the number of characters after all spaces have been removed
+numchars = len(r)
+print("The total number of characters is: " + str(numchars))
+
+print()
+print()
+
+
+# print the number of upper case characters
+uppercase = sum(1 for c in r if c.isupper())
+print("Upper case characters: " + str(uppercase))
+
+print()
+print()
+
+# print the number of lower case characters
+lowercase = sum(1 for c in r if c.islower())
+print("Lower case characters: " + str(lowercase))
+
+print()
+print()
+
+
+# Use a dictionary to store the count of each of the above.
+newdict = { "length" : numchars, "Upper case chars" : uppercase, "Lower case chars": lowercase, "Punctuation chars ": countpunc }
+print("Dictionary: " + str(newdict))
+
+
+print()
+print()
+print()
+
+import re
+
+#
+s = '  Hello  World   From Pankaj \t\n\r\tHi There  '
+
+print('Remove all spaces using RegEx:\n', re.sub(r"\s+", "", s), sep='')  # \s matches all white spaces
+print('Remove leading spaces using RegEx:\n', re.sub(r"^\s+", "", s), sep='')  # ^ matches start
+print('Remove trailing spaces using RegEx:\n', re.sub(r"\s+$", "", s), sep='')  # $ matches end
+print('Remove leading and trailing spaces using RegEx:\n', re.sub(r"^\s+|\s+$", "", s), sep='')  # | for OR condition
 

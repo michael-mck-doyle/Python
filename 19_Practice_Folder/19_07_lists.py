@@ -1,4 +1,21 @@
 
+'''
+__ References __
+Nested Lists - https://www.learnbyexample.org/python-nested-list/
+
+
+__ Glossary __
+
+** Nested List = A list can contain any sort object, even another list (sublist),
+which in turn can contain sub-lists themselves, and so on. This is known as nested list.
+You can use them to arrange data into hierarchical structures.  A nested list is created
+by placing a comma-separated sequence of sublists.
+
+
+
+
+'''
+
 
 # creating a list
 bucket_list = ['climb Mt. Everest', 'eat fruits from a tree', 'raise a child']
@@ -117,5 +134,9 @@ aList = ['xyz', 'zara', 'abc', 'xyz']
 aList.sort()
 print(aList)
 
-
+# Nested Lists
+L = ['a', 'b', ['cc', 'dd', ['eee', 'fff']], 'g', 'h']
+print(L[2])        # ['cc', 'dd', ['eee', 'fff']]
+print(L[2][2])     # ['eee', 'fff']
+print(L[2][2][0])  # eee
 

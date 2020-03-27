@@ -31,6 +31,7 @@ Learn Git - https://www.codecademy.com/learn/learn-git
 What Is Version Control - https://www.atlassian.com/git/tutorials/what-is-version-control
 
 
+
 Identity Operators
 - https://wsvincent.com/python-wat-integer-cache/
 - https://www.journaldev.com/22925/python-id
@@ -38,23 +39,33 @@ Identity Operators
 Python Operators Precedence Table
 - https://www.tutorialspoint.com/python/operators_precedence_example.htm
 
-__ Datastructures __
+__ Datatypes __
+__Strings__
+Remove white space from a string - https://www.journaldev.com/23763/python-remove-spaces-from-string
+
+__ More Datatypes / Collections / Arrays __
+
 __ Lists - Aliasing __
 Aliasing - https://runestone.academy/runestone/books/published/thinkcspy/Lists/Aliasing.html
 More on Lists - https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
+Nested Lists - Nested Lists - https://www.learnbyexample.org/python-nested-list/
+
 
 __ Tuples __
 5.3 Tuples and Sequences - https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences
 Python - Tuples - https://www.tutorialspoint.com/python/python_tuples.htm
+
+
+__ Sets __
+
+Sets - https://snakify.org/en/lessons/sets/
+Sets in Python - https://realpython.com/python-sets/
+5.4 Sets - https://docs.python.org/3/tutorial/datastructures.html#sets
+Sets Mathematics -  https://en.wikipedia.org/wiki/Set_(mathematics)#Basic_operations
+
+__ Dictionaries __
+
+5.5. Dictionaries - https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+Dictionary Methods - https://www.programiz.com/python-programming/methods/dictionary/copy
+Python Dictionaries - https://www.w3schools.com/python/python_dictionaries.asp
 '''
-
-
-tup1 = (12, 34.56);
-tup2 = ('abc', 'xyz');
-
-# Following action is not valid for tuples
-# tup1[0] = 100;
-
-# So let's create a new tuple as follows
-tup3 = tup1 + tup2;
-print tup3;

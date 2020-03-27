@@ -1,4 +1,44 @@
 
+'''
+__ References __
+
+
+__ Glossary __
+
+There are four collection data types in the Python programming language:
+_ 'List' is a collection which is ordered and changeable. Allows duplicate members.
+_ 'Tuple' is a collection which is ordered and unchangeable. Allows duplicate members.
+_ 'Set' is a collection which is unordered and unindexed. No duplicate members.
+_ 'Dictionary' is a collection which is unordered, changeable and indexed. No duplicate members
+
+** Tuples are similar to lists, in that they can hold any other datatype,
+  however, just like strings, they are immutable.
+** Tuples are immutable, and usually, contain a heterogeneous sequence of elements
+  - accessed via unpacking [...].
+** Tuples are created by simply separating values by commas in an assignment,
+   or by explicitly wrapping the values into brackets
+** Lists are mutable, can hold any datatype and their elements are usually homogeneous
+  - accessed by iterating over the list
+  - created by enclosing values within square brackets
+** Sets are an unordered collection with no duplicate elements
+    - Basic uses include membership testing and eliminating duplicate entries.
+    - Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.
+    - created by enclosing values within curly braces or by using the set()function
+    - You cannot access items in a set by referring to an index, since sets are unordered the items has no index.
+     But you can loop through the set items using a for loop, or ask if a specified value is present in a set,
+      by using the in keyword.
+    - Once a set is created, you cannot change its items, but you can add new items or remove items.
+
+ mutable or immutable? how to access?
+** Dictionaries are mutable or immutable? how to access?
+
+
+** Creating a Tuple: t = 12345, 54321, 'hello!'
+** Creating a List: bucket_list = ['climb Mt. Everest', 'eat fruits from a tree', 'raise a child']
+*** Creating a Set:
+*** Creating a Dictionary:
+
+'''
 # Tuples can be created either by simply separating values by
 # commas in an assignment, or by explicitly wrapping the values into brackets
 
