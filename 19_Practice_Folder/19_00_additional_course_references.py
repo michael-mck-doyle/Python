@@ -10,7 +10,7 @@ Learn Python Programming - https://www.programiz.com/python-programming
 Python Tutorials for Beginners - https://thepythonguru.com/
 Python, How to Think Like a Computer Scientist - https://runestone.academy/runestone/books/published/thinkcspy/index.html
 Jetbrains Academy - https://hyperskill.org/onboarding/?track=python (login, select Map and then choose from Python, Java streams etc)
-
+A Byte of Python - https://python.swaroopch.com/
 
 __ Vim __
 13 Linux Terminal Shortcuts - https://linuxhandbook.com/linux-shortcuts/
