@@ -6,6 +6,9 @@ __ For....in.. __ statement
 
 example taken from book, "A Byte of Python", "Control Flow" section - https://python.swaroopch.com/control_flow.html
 
+Traversal with a for loop  - http://greenteapress.com/thinkpython2/html/thinkpython2009.html#sec94
+
+
 The for..in statement is another looping statement which iterates over
 a sequence of objects i.e. go through each item in a sequence. We will see more
 about sequences in detail in later chapters. What you need to know right now
@@ -26,7 +29,7 @@ for example, list(range(5)) will result in [0, 1, 2, 3, 4]. Lists are explained 
 '''
 
 
-
+'''
 
 for i in range(1, 10):
     print(i - 1)
@@ -47,3 +50,69 @@ else:
 
 print("next for loop __" * 3)
 print()
+
+
+print()
+print()
+
+# you can use keyword 'and' to search between two numbers
+
+#number = 5
+number = int(input('Enter an integer : '))
+if number == 5:
+    print("it's 5!")
+elif number < 5:
+    print("too low!")
+elif number > 5 and number < 20:
+    print("good guess but not quite.")
+else:
+    print("whoa slow down! so high, take care!")
+
+print()
+print()
+
+my_list = [1, 2, 3, "hello", "it's blue!", 10]
+
+for item in my_list:
+    print(item)
+
+print()
+print()
+
+fruit = (input('Enter a fruit : '))
+for letter in fruit:
+    print(letter)
+
+print()
+print()
+
+users = {'mary': 22, 'caroline': 26, 20: 20}
+# let's make them age for 30 years each!
+
+for user, age in users.items():
+    aged = int((age + 30)/2)
+    print(user, aged)
+
+
+print()
+print()
+fruit = (input('Enter a fruit : '))
+index = -1
+while index < len(fruit):
+    letter = fruit[index]
+    print(letter)
+    index = index - 1
+
+print("Finished")
+
+'''
+
+#Using the range function, write a for loop that counts from 1 to 10 and prints each number to the console.
+# The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default),
+# and ends at a specified number.
+x = range(0,10,2)
+for i in x:
+    print(i)
+
+    
+

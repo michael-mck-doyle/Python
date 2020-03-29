@@ -4,6 +4,9 @@
 __ References __
 
 Control Flow - https://python.swaroopch.com/control_flow.html
+Stack Diagrams - http://greenteapress.com/thinkpython2/html/thinkpython2004.html#sec35
+Python Online Visualisation Tool - http://www.pythontutor.com/visualize.html#mode=edit
+
 
 There are three control flow statements in Python - if, for and while
 
@@ -18,6 +21,9 @@ else:
 Remember that the elif and else parts are optional. A minimal valid if statement is:
 if True:
     print('Yes, it is true')
+
+
+Stack diagrams - can be used to keep track of which variables can be used where, see link above
 
 '''
 

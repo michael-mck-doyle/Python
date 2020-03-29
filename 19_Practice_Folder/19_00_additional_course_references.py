@@ -11,6 +11,10 @@ Python Tutorials for Beginners - https://thepythonguru.com/
 Python, How to Think Like a Computer Scientist - https://runestone.academy/runestone/books/published/thinkcspy/index.html
 Jetbrains Academy - https://hyperskill.org/onboarding/?track=python (login, select Map and then choose from Python, Java streams etc)
 A Byte of Python - https://python.swaroopch.com/
+Think Python (can buy from Amazon or use online book version) - https://www.amazon.com/gp/product/1491939362/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1491939362&linkCode=as2&tag=greenteapre01-20&linkId=QGWNVBOEV6JIMH4Y
+Think Python - http://greenteapress.com/thinkpython2/html/thinkpython2004.html#sec32
+Python Online Visualisation Tool - http://www.pythontutor.com/visualize.html#mode=edit
+
 
 __ Vim __
 13 Linux Terminal Shortcuts - https://linuxhandbook.com/linux-shortcuts/

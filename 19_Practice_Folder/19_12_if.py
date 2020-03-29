@@ -34,3 +34,23 @@ else:
 print('Done')
 # This last statement is always executed,
 # after the if statement is executed.
+
+
+print()
+print()
+
+x = 5
+y = 10
+if x < 5:
+    print("one")
+elif x > 5:
+    print("two")
+else:
+    print("three")
+if x >= 5 and y < 10:
+    print("four")
+elif x < y and  y == 10:
+    print("five")
+else:
+    print("six")
+
