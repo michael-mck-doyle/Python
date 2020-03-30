@@ -105,14 +105,23 @@ while index < len(fruit):
 
 print("Finished")
 
-'''
+
 
 #Using the range function, write a for loop that counts from 1 to 10 and prints each number to the console.
 # The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default),
 # and ends at a specified number.
-x = range(0,10,2)
+x = range(1,11)
 for i in x:
     print(i)
+'''
 
-    
+#Using the list provided below, write a for loop to iterate over the list
+#and find (and print) the sum of all the numbers in the list.
+
+example_list = [2, 5, 7, 9, 3, 8, 8]
+
+x = 0
+for i in example_list:
+    x = x + i
+print(x)
 

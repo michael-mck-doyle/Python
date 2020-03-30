@@ -13,7 +13,9 @@ Notice how it differs from the 'if' statement,
 We move the input and if statements to inside the while loop
 and set the variable running to True before the while loop.
 '''
+import webbrowser
 
+import countdown as countdown
 
 number = 23
 running = True
@@ -24,6 +26,7 @@ while running:
     if guess == number:
         print('Congratulations, you guessed it.')
         # this causes the while loop to stop
+
         running = False
     elif guess < number:
         print('No, it is a little higher than that.')
@@ -34,3 +37,30 @@ else:
     # Do anything else you want to do here
 
 print('Done')
+
+
+count = 5
+while count > 0:
+  print(count)
+  count += -1
+
+# always make sure there is a condition that terminates the loop
+# above we decremented the count variable
+# below we use a control statement
+while True:
+  prompt = input('say something: ')
+  if prompt == 'quit':
+    break
+  print(prompt[::-1])
+print("bye!! (it's tiuq, btw. ;)")
+
+
+# webbrowser.open('https://inventwithpython.com/') # opens the web page
+
+def countdown(n):
+    while n > 0:
+        print(n)
+    n = n - 1
+    print('Blastoff!')
+
+
