@@ -18,6 +18,7 @@ Automate the Boring Stuff - https://automatetheboringstuff.com/
 Automate the Boring Stuff - Chapter 1 - https://automatetheboringstuff.com/2e/chapter1/
 Invent Your Own Computer Games with Python, 4th Edition - https://inventwithpython.com/invent4thed/
 Invent With Scratch - https://inventwithscratch.com/
+Geeks for Geeks - https://www.geeksforgeeks.org/python-program-to-find-largest-number-in-a-list/
 
 
 __ Vim __

@@ -11,12 +11,19 @@ come back to this task after you have learned about loops)
 '''
 
 tally = []
-nums_entered = 5
+nums_entered = 10
 while len(tally) < nums_entered:
     item = input("Enter a number to the list: ")
     tally.append(item)
 
 tally.sort()
+print("'tally' list before converting input to int: " + str(tally))
+tally = [int(x) for x in tally]
+tally.sort()
+print("'tally' list after converting input to int: " + str(tally))
 
-print("The largest number in the list is: " + str(tally[4]))
-print(tally)
+print("Largest element is:", max(tally))
+#print("The largest number in the list is: " + str(tally[-1]))
+
+
+
