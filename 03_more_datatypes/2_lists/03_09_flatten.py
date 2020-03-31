@@ -6,4 +6,13 @@ flattened_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 '''
 
+from itertools import chain
+
 starting_list = [[1, 2, 3, 4], [5, 6], [7, 8, 9]]
+flattened_list = list(chain.from_iterable(starting_list))
+print(flattened_list)
+
+
+
+
+

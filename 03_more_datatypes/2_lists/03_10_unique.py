@@ -6,3 +6,10 @@ unique_list = [55, 'hi', 4, 13]
 
 
 '''
+
+my_list = [1, 2, 3, 4, 3, 4, 5]
+
+unique_list = list(dict.fromkeys(my_list))
+print(unique_list)
+
+
