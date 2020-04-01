@@ -9,8 +9,8 @@ CHALLENGE: Can you change the script so that it counts the occurrence of each in
 
 list_before = ['a', 'e', 'i', 'o', 'u']
 list_after = []
-r = (input("Please enter a string of words in lower case: "))
-
+r = (input("Please enter a string of words: "))
+r = (r.lower())
 
 vowels = 0
 count_vowels = 0
@@ -34,3 +34,4 @@ print("The vowels present in the string are" + str(list_after))
 print("The total Number of Vowels in this String = ", count_vowels)
 
 print("Vowels not present in the string is/are: " + str(missing_vowel))
+
