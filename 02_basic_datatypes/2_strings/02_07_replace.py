@@ -13,7 +13,7 @@ r = (input("Please enter a string of words: "))
 s = (input("Please enter a symbol: "))
 firstchar = r[0]
 
-r = r.replace(firstchar, "*")
+r = r.replace(firstchar, s)
 
 print(r)
 print(s)
