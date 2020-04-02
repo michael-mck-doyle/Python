@@ -12,9 +12,7 @@ CHALLENGE: Can you edit to script to print only the string with the most charact
 
 '''
 
-'''
-Note, the solution below doesn't work if strings of the same length are entered e.g. Sunday, Monday, Friday
-'''
+
 s = 0
 
 list_string = []
