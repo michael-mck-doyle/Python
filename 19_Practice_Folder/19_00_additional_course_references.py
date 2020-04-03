@@ -83,4 +83,11 @@ __ Flow Control - Conditionals and Loops
 
 Control Flow - https://python.swaroopch.com/control_flow.html
 
+
+__ String Formatting __
+The new f-strings in Python 3.6 - https://cito.github.io/blog/f-strings/
+Format Specification Mini-Language - https://docs.python.org/3/library/string.html#format-specification-mini-language
+string — Common string operations - https://docs.python.org/3/library/string.html#format-specification-mini-language
+
+
 '''

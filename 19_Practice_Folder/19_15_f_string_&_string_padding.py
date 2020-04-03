@@ -14,5 +14,11 @@ print()
 
 # string padding
 
-strng = "heiheo"
-print(f"{strng: >3}")
+strng = "World"
+print(f"Hello{strng: >50}")
+
+
+
+
+
+

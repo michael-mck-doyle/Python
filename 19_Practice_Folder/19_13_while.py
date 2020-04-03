@@ -64,3 +64,30 @@ def countdown(n):
     print('Blastoff!')
 
 
+#course exercise
+people = [
+            ['Bilbo', 'Baggins'],
+            ['Gollum'],
+            ['Tom', 'Bombadil'],
+            ['Aragorn']
+        ]
+
+# Change everything below here to use while loops instead
+
+person = 0
+name = 0
+while person < people(len()):
+    to_print = ""
+    person += 1
+    while name < person:
+        to_print += name + " "
+        name +=1
+    print(to_print)
+
+print("Looks about right?!")
+
+#for person in people:
+    #to_print = ""
+    #for name in person:
+       # to_print += name + " "
+    #print(to_print)
