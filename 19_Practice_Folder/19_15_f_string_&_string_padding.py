@@ -18,7 +18,11 @@ strng = "World"
 print(f"Hello{strng: >50}")
 
 
+strng = "Hello"
+print(f"Hello{strng: >8}")
 
+strng = "Hello"
+print(f"Hello{strng: >0}")
 
 
 
