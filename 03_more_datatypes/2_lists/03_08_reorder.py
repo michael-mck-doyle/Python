@@ -29,7 +29,7 @@ print()
 print("the list of numbers entered = " + str(new_list))
 print()
 
-for x in range(-1, -10, -2):
+for x in range(-2, -11, -2):
     print ("Every second number in reverse order : " + str(new_list[x]))
 
 

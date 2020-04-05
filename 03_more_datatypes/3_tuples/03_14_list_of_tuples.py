@@ -6,3 +6,16 @@ input = "hello world"
 result_list = [('h', 'e', 'l', 'l', 'o'), ('w', 'o', 'r', 'l', 'd')]
 
 '''
+
+txt = input("write a sentence containing repeating words: ")
+d = []
+b = txt.split(" ")
+
+for t in b:
+    c = tuple(t)
+    d.append(c)
+
+print(d)
+
+
+
