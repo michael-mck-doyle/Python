@@ -90,4 +90,10 @@ Format Specification Mini-Language - https://docs.python.org/3/library/string.ht
 string — Common string operations - https://docs.python.org/3/library/string.html#format-specification-mini-language
 
 
+__ PyPi - Python Package Index __
+ Find, install and publish Python packages with the Python Package Index.
+ PyPI helps you find and install software developed and shared by the Python community.
+  - https://pypi.org/
+
+
 '''
