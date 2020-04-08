@@ -95,5 +95,20 @@ __ PyPi - Python Package Index __
  PyPI helps you find and install software developed and shared by the Python community.
   - https://pypi.org/
 
+Some Python Packages
 
+ - Beautiful Soup
+ - pip install --upgrade certifi
+
+__Getting HTML data from a website__
+Performing HTTP requests in Python using urllib - https://gist.github.com/Akash-Ansari/e0d868f147c39ecf327215f06b2b27d1
+Python Urllib Module - Urllib module is the URL handling module for python. - https://www.geeksforgeeks.org/python-urllib-module/
+[SSL: CERTIFICATE_VERIFY_FAILED] error - Answered here: https://stackoverflow.com/questions/50236117/scraping-ssl-certificate-verify-failed-error-for-http-en-wikipedia-org#50243316
+
+Performing HTTP requests in Python using urllib - https://gist.github.com/Akash-Ansari/e0d868f147c39ecf327215f06b2b27d1
+Python Urllib Module - Urllib module is the URL handling module for python. - https://www.geeksforgeeks.org/python-urllib-module/
+[SSL: CERTIFICATE_VERIFY_FAILED] - Answered here: https://stackoverflow.com/questions/50236117/scraping-ssl-certificate-verify-failed-error-for-http-en-wikipedia-org#50243316
+Web Scraping Python Tutorial for Beginners - https://intellipaat.com/blog/tutorial/python-tutorial/python-web-scraping-tutorial/
+Using BeautifulSoup to parse HTML and extract press briefings URLs - http://www.compjour.org/warmups/govt-text-releases/intro-to-bs4-lxml-parsing-wh-press-briefings/#extracting-text-from-soup
+Beautiful Soup Documentation - Beautiful Soup is a Python library for pulling data out of HTML and XML files - https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 '''
