@@ -111,4 +111,9 @@ Python Urllib Module - Urllib module is the URL handling module for python. - ht
 Web Scraping Python Tutorial for Beginners - https://intellipaat.com/blog/tutorial/python-tutorial/python-web-scraping-tutorial/
 Using BeautifulSoup to parse HTML and extract press briefings URLs - http://www.compjour.org/warmups/govt-text-releases/intro-to-bs4-lxml-parsing-wh-press-briefings/#extracting-text-from-soup
 Beautiful Soup Documentation - Beautiful Soup is a Python library for pulling data out of HTML and XML files - https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
+Maths
+- refer to 'math' in the Python library for more details on the available math functions - https://docs.python.org/3/library/math.html
+
 '''
+
