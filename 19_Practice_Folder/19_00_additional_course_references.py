@@ -112,8 +112,12 @@ Web Scraping Python Tutorial for Beginners - https://intellipaat.com/blog/tutori
 Using BeautifulSoup to parse HTML and extract press briefings URLs - http://www.compjour.org/warmups/govt-text-releases/intro-to-bs4-lxml-parsing-wh-press-briefings/#extracting-text-from-soup
 Beautiful Soup Documentation - Beautiful Soup is a Python library for pulling data out of HTML and XML files - https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
-Maths
-- refer to 'math' in the Python library for more details on the available math functions - https://docs.python.org/3/library/math.html
-
+__ Libraries __
+requests - The requests library is the de facto standard for making HTTP requests in Python - https://realpython.com/python-requests/
+Python requests - https://realpython.com/python-requests/
+HTTP Request Methods - https://www.w3schools.com/tags/ref_httpmethods.asp
+maths - refer to 'math' in the Python library for more details on the available math functions - https://docs.python.org/3/library/math.html
+statistics -
+urllib -
 '''
 

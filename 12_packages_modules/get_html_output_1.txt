@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+	
+			
+	
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<html>
+<head>
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache,must-revalidate">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<style type="text/css" >
+<!--
+.SLBody,.LTBLGlyBody,.SLTabFont,.SLTabBodyFont,.SLTabBgcolorLight,.SLTabBgcolorDark,.SLButton,.SLErrMsg,.SLVwSt,.SLTblHead,.SLTblEvenRow,.SLTblOddRow,.SLTblPNumOdd,.SLTblPNumEven,.SLTblNNumOdd,.SLTblNNumEven,.SLPager,.SLPglCtrlPanel,A:link,A:visited,A:active,A:hover,A.SLTabFont:link,A.SLTabFont:hover,A.SLTabFont:visited,A.SLTabBodyFont:link,A.SLTabBodyFont:hover,A.SLTabBodyFont:visited,H1,H2,H3,Select,Input,.SLSymbolDetail,Table,Div,.slPlzWtWdw{font-size:100%;font-family:Arial;font-weight:normal;color:#000000;}
+.SLBody,.LTBLGlyBody{font-family:Arial;font-weight:bold;font-size:9pt; margin:0;background: #C1C1C1 url('/CL/PFThemes/LTBL/image/body_bg.gif') repeat-x;}
+.SLTabBodyFont{font-weight:bold;}
+.SLPglCtrlPanel{background-color:#C1C1C1;height:9;}
+A:link,A:visited,A:active{font-weight:bold;text-decoration:none;color:#000000;}
+A:hover{font-weight:bold;text-decoration:underline;}
+A.SLTabFont:link,A.SLTabFont:hover,A.SLTabFont:visited,A.SLTabBodyFont:link,A.SLTabBodyFont:hover,A.SLTabBodyFont:visited{text-decoration:none;}
+.SLErrMsg{font-weight:bold;color:#FF3300;}
+-->
+</style>
+
+
+<script>function klSess(eC){window.top.location="https://wealth.sc.com/sg/onlinetrading/CL/SLPF_KillSession.jsp?uId="+(new Date().getTime())+"&error_code="+eC;}</script>
+</head>  
+<center>
+<body class="SLPglCtrlPanel">
+<table border=0 cellpadding=0 cellspacing=0 class="SLErrMsg">
+<tr><td>&nbsp;</td></tr>
+
+<tr><td align=center>Invalid Session.</td></tr>
+<tr><td align=center> <A  HREF="javascript:klSess('1')"> Click here to login again.</A></td></tr>
+</table>
+</body>
+</center>
+</html>
