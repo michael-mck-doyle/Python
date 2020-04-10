@@ -119,5 +119,9 @@ HTTP Request Methods - https://www.w3schools.com/tags/ref_httpmethods.asp
 maths - refer to 'math' in the Python library for more details on the available math functions - https://docs.python.org/3/library/math.html
 statistics -
 urllib -
+
+__ Python Modules __
+
+Journaldev - https://www.journaldev.com/14329/python-modules
 '''
 

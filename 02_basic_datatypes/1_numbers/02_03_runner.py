@@ -5,6 +5,8 @@ What is his/her average speed in kilometers per hour? (Tip: 1 mile = 1.6 km)
 
 '''
 
+import math
+
 distance_miles = 10
 distance_kilometres = distance_miles*1.6
 minutes = 30

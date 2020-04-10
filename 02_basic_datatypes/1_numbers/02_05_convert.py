@@ -12,15 +12,24 @@ Demonstrate how to:
 '''
 
 x = 10
+
+# results in float
 x = 10/3
 print(x)
+
+# convert float to int
 x = int(x)
 print(x)
-x = 10 /4
+
+# division results in float
+x = 10/4
 print(x)
+
+# floor division
 x = 10//4
 print(x)
 
+#Use two user inputted values to perform multiplication.
 x = int(input("Please enter a number: "))
 y = int(input("Please enter another number: "))
 
