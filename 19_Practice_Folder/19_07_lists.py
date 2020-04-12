@@ -66,7 +66,7 @@ print("------------------")
 print("Accessing Values in Lists")
 print("__________________")
 
-ist1 = ['physics', 'chemistry', 1997, 2000];
+list1 = ['physics', 'chemistry', 1997, 2000];
 list2 = [1, 2, 3, 4, 5 ];
 list3 = ["a", "b", "c", "d"]
 list1 = ['physics', 'chemistry', 1997, 2000];
@@ -139,4 +139,31 @@ L = ['a', 'b', ['cc', 'dd', ['eee', 'fff']], 'g', 'h']
 print(L[2])        # ['cc', 'dd', ['eee', 'fff']]
 print(L[2][2])     # ['eee', 'fff']
 print(L[2][2][0])  # eee
+
+# aliasing
+
+x = [1, 2, 3]
+y = x
+y.append(4)
+print(x)
+print(y)
+y[0] = 8
+print(x)
+print(y)
+print (y[1])
+y.append(10)
+print(y)
+y[2]=222
+print(y)
+y.insert(0,111111)
+print(y)
+y.remove(222)
+print(y)
+del y[:-1]
+print(y)
+y.extend([234, 567, 8910])
+print(y)
+y.extend(['a', 'b', 'c', 'd', 'e', 'f'])
+print (y)
+
 

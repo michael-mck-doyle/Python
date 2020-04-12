@@ -3,6 +3,7 @@
 '''
 
 __ Python __
+Journal Dev - https://github.com/journaldev/journaldev/tree/master/Python-3#python-modules
 Python w3schools - w3schools.com/python/default.asp
 The Python Tutorial - https://docs.python.org/3/tutorial/index.html
 Python Tutorial - https://www.zentut.com/python-tutorial/
@@ -41,7 +42,7 @@ What Is Version Control - https://www.atlassian.com/git/tutorials/what-is-versio
 
 
 
-Identity Operators
+__ Identity Operators __
 - https://wsvincent.com/python-wat-integer-cache/
 - https://www.journaldev.com/22925/python-id
 
@@ -83,7 +84,6 @@ __ Flow Control - Conditionals and Loops
 
 Control Flow - https://python.swaroopch.com/control_flow.html
 
-
 __ String Formatting __
 The new f-strings in Python 3.6 - https://cito.github.io/blog/f-strings/
 Format Specification Mini-Language - https://docs.python.org/3/library/string.html#format-specification-mini-language
@@ -122,6 +122,7 @@ urllib -
 
 __ Python Modules __
 
+Python Module index - https://docs.python.org/3/py-modindex.html
 Journaldev - https://www.journaldev.com/14329/python-modules
 '''
 

@@ -8,7 +8,7 @@ Print the future values to the console.
 
 '''
 
-
+import math
 
 P = int(input("Please enter the amount of dollars you would like to invest: "))
 r = float(input("Please enter the interest rate in decimal: "))

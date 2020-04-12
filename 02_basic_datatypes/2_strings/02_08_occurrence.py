@@ -11,9 +11,10 @@ Result: 4
 
 r = (input("Please enter a string of words: "))
 s = (input("Please enter a letter: "))
+r = r.lower()
+f = r.find(s)
 
-r = r.find(s)
-
+print(f)
 print(r)
 
 
