@@ -7,7 +7,10 @@ sorted_list = [('second_element', 2), ('first_element', 4), ('third_element', 6)
 
 '''
 
-
+# use to measure time of code execution
+import time
+start_time = time.time()
+# your code
 
 unsorted_list = [('first_element', 4), ('second_element', 2), ('third_element', 6)]
 sorted_list = []
@@ -27,3 +30,9 @@ for value in value_list:
             break
 
 print(sorted_list)
+
+# use to measure time of code execution
+end_time = time.time()
+print()
+print()
+print("Total execution time: {} seconds".format(end_time - start_time))
