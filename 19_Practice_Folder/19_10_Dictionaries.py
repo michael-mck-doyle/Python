@@ -54,3 +54,26 @@ print('New: ', new)
 new_dict = {}
 new_dict ["planet"] = "mars"
 print(new_dict['planet'])
+
+# vowels keys
+keys = {'a', 'e', 'i', 'o', 'u' }
+vowels = dict.fromkeys(keys)
+print(vowels)
+
+# vowels keys
+keys = {'a', 'e', 'i', 'o', 'u' }
+value = 1, 2, 3, 4, 5
+
+vowels = dict.fromkeys(keys, value)
+print(vowels)
+
+# vowels keys
+keys = {'a', 'e', 'i', 'o', 'u' }
+value = [1]
+
+vowels = dict.fromkeys(keys, value)
+print("vowels = ", vowels)
+
+# updating the value
+value.append(2)
+print("vowels = ", vowels)

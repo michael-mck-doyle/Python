@@ -166,4 +166,33 @@ print(y)
 y.extend(['a', 'b', 'c', 'd', 'e', 'f'])
 print (y)
 
+numbers = [1, 2, 3]
+print(numbers)
+numbers += [4, 5]
+print(numbers)
+numbers.extend([7, 8, 9])
+print(numbers)
+numbers.insert(7, 11)
+print(numbers)
+
+tup1 = ('physics', 'chemistry', 1997, 2000)
+tup2 = (1, 2, 3, 4, 5, 6, 7 )
+print("tup1[0]: ", tup1[0])
+print("tup2[1:5]: ", tup2[1:5])
+num_tuple = tup1[0], tup2[2]
+print(num_tuple)
+print(len(num_tuple))
+
+x = max(str(num_tuple))
+print(x)
+
+tup_to_list = ['abc', 'def', 'ghi', 'jkl', 'mnop']
+z = tuple(tup_to_list)
+print(z)
+
+
+dir(enumerate)
+
+
+
 

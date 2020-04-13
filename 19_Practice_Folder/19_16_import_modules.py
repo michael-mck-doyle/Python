@@ -10,6 +10,13 @@ There are a lot of built-in modules in Python. Some of the important ones are â€
 
 '''
 
+# enumerate
+print('enumerate Functions/Modules')
+e = dir(enumerate)
+f = ()
+for i in e:
+    print(i)
+
 import logging
 print('collections Functions/Modules')
 l = dir(logging)
