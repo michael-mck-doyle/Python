@@ -7,3 +7,16 @@ The output of your calculation should therefore look like this:
 
 The sum is: 5050
 '''
+
+x = input("Enter a starting number: ")
+y = input("Enter an ending number: ")
+w = int(x)
+z = int(y)
+sum = 0
+
+while w <= z:
+    sum = sum + w
+    print(sum)
+    w += 1
+print(sum)
+

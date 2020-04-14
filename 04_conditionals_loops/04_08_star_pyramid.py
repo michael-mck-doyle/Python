@@ -17,3 +17,9 @@ Another example: if input is 3, you will output
 Hint: Think of nested for loops
 
 '''
+
+x = input("Enter a number between 1 and 100: ")
+y = int(x) + 1
+
+for i in range(0, y):
+    print('*' * i)
