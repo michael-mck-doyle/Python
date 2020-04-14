@@ -125,3 +125,7 @@ for i in example_list:
     x = x + i
 print(x)
 
+x = range(1,6)
+for i in x:
+    print(i)
+
