@@ -6,3 +6,14 @@ user_input = "hello"
 result = {"h": 1, "e": 1, "l": 2, "o": 1}
 
 '''
+
+my_dict = {}
+x = input('Please enter your feedback: ')
+x = x.replace(" ", "")
+
+for i in x:
+    z = x.count(i)
+
+    my_dict[i] = z
+print(my_dict)
+
