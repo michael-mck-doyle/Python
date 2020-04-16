@@ -8,8 +8,10 @@ formatted like so:
 
 famous_quotes = [
     {"full_name": "Isaac Asimov", "quote": "I do not fear computers. I fear lack of them."},
+
     {"full_name": "Emo Philips", "quote": "A computer once beat me at chess, but it was no match for me at "
                                           "kick boxing."},
+
     {"full_name": "Edsger W. Dijkstra", "quote": "Computer Science is no more about computers than astronomy "
                                                  "is about telescopes."},
     {"full_name": "Bill Gates", "quote": "The computer was born to solve problems that did not exist before."},
@@ -19,11 +21,11 @@ famous_quotes = [
     {"full_name": "Alan Bennett", "quote": "Standards are always out of date.  That’s what makes them standards."}
 ]
 
-q = 0
+c = 0
 
-while q < len(famous_quotes):
-    print(f"{famous_quotes[q]}")
-    q += 1
+for i in famous_quotes:
+    print(f"{famous_quotes}")
+    #print(i)
 
 print("finished")
 

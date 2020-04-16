@@ -126,5 +126,21 @@ __ Python Modules __
 
 Python Module index - https://docs.python.org/3/py-modindex.html
 Journaldev - https://www.journaldev.com/14329/python-modules
-'''
 
+__ Docstrings __
+docstrings - https://www.python.org/dev/peps/pep-0257/
+
+__ Variable Scope __
+
+Variable scope and lifetime -  https://python-textbok.readthedocs.io/en/1.0/Variables_and_Scope.html#variable-scope-and-lifetime
+Variables and scope - https://python-textbok.readthedocs.io/en/1.0/Variables_and_Scope.html#more-about-scope-crossing-boundaries
+Global and local scope of Python variables - https://matthew-brett.github.io/teaching/global_scope.html
+
+__ Type Hinting __
+How to Use Static Type Checking in Python 3.6 - https://medium.com/@ageitgey/learn-how-to-use-static-type-checking-in-python-3-6-in-10-minutes-12c86d72677b
+How to use type hints in python 3.6? - https://stackoverflow.com/questions/41356784/how-to-use-type-hints-in-python-3-6
+Optional static typing for Python 3 and 2 (PEP 484) - https://github.com/python/mypy
+Type Hinting in Python is not enforced (Python is dynamically typed unlike Java which is statically typed e.g. int x = 10 identifies
+the type of variable x is, in this case an int .  However, there are some external packages,
+ e.g. mypy (see link above) that make it possible to enforce static typing in python.
+ 
