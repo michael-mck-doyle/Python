@@ -10,6 +10,15 @@ There are a lot of built-in modules in Python. Some of the important ones are â€
 
 '''
 
+
+#unittest
+import unittest
+print('unittest Functions/Modules')
+e = dir(unittest)
+f = ()
+for i in e:
+    print(i)
+
 # enumerate
 print('enumerate Functions/Modules')
 e = dir(enumerate)
