@@ -151,8 +151,15 @@ Python Objects - https://www.effbot.org/zone/python-objects.htm
 Class Objects - https://docs.python.org/3.6/tutorial/classes.html#class-objects
 Classes and objects - http://greenteapress.com/thinkpython2/html/thinkpython2016.html
 Understanding Class and Instance Variables in Python 3 - https://www.digitalocean.com/community/tutorials/understanding-class-and-instance-variables-in-python-3
+Class and Instance Variables - https://www.digitalocean.com/community/tutorials/understanding-class-and-instance-variables-in-python-3
+Understanding Class Inheritance - https://www.digitalocean.com/community/tutorials/understanding-class-inheritance-in-python-3
+
 
 __ TDD - Test Driven Development __
 Test-Driven Web Development with Python - https://www.obeythetestinggoat.com/pages/book.html#toc
 pytest - Python testing tool - https://docs.pytest.org/en/latest/
 Python Testing - https://pythontesting.net/meta/info-needed-to-start-testing/#more-50843
+
+__ Unit Testing __
+
+
