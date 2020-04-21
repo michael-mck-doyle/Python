@@ -1,0 +1,56 @@
+
+
+'''
+Frameworks
+- Unittest - is already built in to Python
+- Pytest - use pip install to install
+
+1. create a virtual environment - can use Pycharm or CLI
+- create a new directory using: 'python3 -m venv new_venv_name'
+- use 'source path_to_file activate' to activate the virtual directory
+- install whatever programs you need in the venv
+2. Pycharm setup for new venv
+- select Pycharm > Preferences > Project interpreter > settings icon > Add > either New or Existing environment
+ > add Interpreter
+- select Pycharm > Preferences > Python Integrated Tools > under 'Testing' select the default test runner e.g. unittest, PyTest...
+3.
+
+1. import the function that you need e.g. import unittest, import package_name to be tested...
+2. create a test case Class in the test file
+3. define the test case (which is a method) - the test case is written in the method
+4. the test case name (method) must begin with "test_"
+5. use "if __name__ == '__main__': unittest.main()" at end of tests for something...
+adding this to the end of your test allows you to run the test file directly using the
+ familiar command to execute a Python script:  python test_yourpackagename.py
+5. use context manager - 'raise' exceptions using the python "Context Manager" e.g. with selfAssertRaises..... :  .....
+6. Methods Wrapping Every Single Test Case - use the set-up and tear down commands before and after each test is run
+7. Methods Wrapping The Whole Test Suite - @classmethod def setUpClass(cls): / @classmethod def tearDownClass(cls):
+8. use mock-up for data that may not be available to complete running of test
+9. use one main start-up / tear-down module at start and end of test suite
+
+__ Unit Testing __
+Unittest — Unit testing framework - https://docs.python.org/3/library/unittest.html#module-unittest
+Getting Started With Testing in Python - https://realpython.com/python-testing/#more-advanced-testing-scenarios
+Unit Testing & Test-Driven Development - https://python-3-patterns-idioms-test.readthedocs.io/en/latest/UnitTesting.html
+pytest: helps you write better programs - https://docs.pytest.org/en/latest/
+What info do you need to start testing? - https://pythontesting.net/
+Test-Driven Development with Python - https://www.obeythetestinggoat.com/pages/book.html#toc
+Productive Pytest with PyCharm - Jetbrains video, check YouTube
+Pytest Webinar - https://github.com/okken/pycharm_2018_Feb/blob/master/README.md
+
+__ Podcasts __
+Python Bytes podcasthttps://pythonbytes.fm/
+Jetbrains resources - https://www.jetbrains.com/resources/webinars/#product=all
+
+__ Virtual Environments __
+Configure a Virtual Environment in PyCharm - https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html
+
+__ Videos __
+
+Python Tutorial: Unit Testing Your Code with the unittest Module  - https://www.youtube.com/watch?v=6tNS--WetLI&t=148s
+
+
+
+
+'''
+

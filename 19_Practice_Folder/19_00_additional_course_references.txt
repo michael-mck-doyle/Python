@@ -131,7 +131,6 @@ __ Docstrings __
 docstrings - https://www.python.org/dev/peps/pep-0257/
 
 __ Variable Scope __
-
 Variable scope and lifetime -  https://python-textbok.readthedocs.io/en/1.0/Variables_and_Scope.html#variable-scope-and-lifetime
 Variables and scope - https://python-textbok.readthedocs.io/en/1.0/Variables_and_Scope.html#more-about-scope-crossing-boundaries
 Global and local scope of Python variables - https://matthew-brett.github.io/teaching/global_scope.html
@@ -146,7 +145,6 @@ the type of variable x is, in this case an int .  However, there are some extern
 
 
 __ Object Oriented Programming __
-
 Python Objects - https://www.effbot.org/zone/python-objects.htm
 Class Objects - https://docs.python.org/3.6/tutorial/classes.html#class-objects
 Classes and objects - http://greenteapress.com/thinkpython2/html/thinkpython2016.html
@@ -161,5 +159,18 @@ pytest - Python testing tool - https://docs.pytest.org/en/latest/
 Python Testing - https://pythontesting.net/meta/info-needed-to-start-testing/#more-50843
 
 __ Unit Testing __
+Unittest — Unit testing framework - https://docs.python.org/3/library/unittest.html#module-unittest
+Getting Started With Testing in Python - https://realpython.com/python-testing/#more-advanced-testing-scenarios
+Unit Testing & Test-Driven Development - https://python-3-patterns-idioms-test.readthedocs.io/en/latest/UnitTesting.html
+pytest: helps you write better programs - https://docs.pytest.org/en/latest/
+What info do you need to start testing? - https://pythontesting.net/
+Test-Driven Development with Python - https://www.obeythetestinggoat.com/pages/book.html#toc
+Productive Pytest with PyCharm - Jetbrains video, check YouTube
+Pytest Webinar - https://github.com/okken/pycharm_2018_Feb/blob/master/README.md
 
+__ Podcasts __
+Python Bytes podcasthttps://pythonbytes.fm/
+Jetbrains resources - https://www.jetbrains.com/resources/webinars/#product=all
 
+__ Virtual Environments __
+Configure a Virtual Environment in PyCharm - https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html
