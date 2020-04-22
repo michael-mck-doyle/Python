@@ -34,6 +34,9 @@ Getting Started With Testing in Python - https://realpython.com/python-testing/#
 Unit Testing & Test-Driven Development - https://python-3-patterns-idioms-test.readthedocs.io/en/latest/UnitTesting.html
 pytest: helps you write better programs - https://docs.pytest.org/en/latest/
 What info do you need to start testing? - https://pythontesting.net/
+Pypi pytest-cov - https://pypi.org/project/pytest-cov/
+pytest-bdd 3.2.1- https://pypi.org/project/pytest-bdd/
+
 Test-Driven Development with Python - https://www.obeythetestinggoat.com/pages/book.html#toc
 Productive Pytest with PyCharm - Jetbrains video, check YouTube
 Pytest Webinar - https://github.com/okken/pycharm_2018_Feb/blob/master/README.md
@@ -49,6 +52,19 @@ __ Videos __
 
 Python Tutorial: Unit Testing Your Code with the unittest Module  - https://www.youtube.com/watch?v=6tNS--WetLI&t=148s
 
+
+__ Unit Test Code Coverage __
+
+1. pip install coverage
+2. from terminal type
+- coverage run * ( for all files) or file_name (for specific files)
+- coverage report * (to generate a report of unit test coverage for all files) or specify a filename
+3. Troubleshoot
+- "No source for code" - try deleting python cache / pyc files in the directory
+__References__
+An introduction to code coverage, Atlassian - https://www.atlassian.com/continuous-delivery/software-testing/code-coverage
+Coverage.py - https://coverage.readthedocs.io/en/coverage-5.1/cmd.html
+100 Percent Test Coverage in Python - https://www.youtube.com/watch?v=7BJ_BKeeJyM
 
 
 
