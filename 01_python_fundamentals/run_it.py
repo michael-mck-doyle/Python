@@ -14,17 +14,21 @@
 	- Calculate how many seconds are in a year.
 '''
 
-#print("hello world")
-#print("hello you")
-#year = 1
-#days = 365
-#hours = 24
-#minutes = 60
-#seconds = 60
+print("hello world")
+print("hello you")
+year = 1
+days = 365
+hours = 24
+minutes = 60
+seconds = 60
 
 
 def calc_secs(year, days, hours, minutes, seconds):
-    return year * days * hours * minutes * seconds
+    num_secs = year * days * hours * minutes * seconds
+    #print(num_secs)
+    return num_secs
 
-# print ("The number of seconds in a year is:")
-# print (numberofsecond)
+
+x = calc_secs(2, 365, 24, 60, 60)
+print("The number of seconds in a year is:")
+print(x)

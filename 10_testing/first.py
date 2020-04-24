@@ -9,14 +9,22 @@ Also include a test that does not pass.
 '''
 
 
-class simple_Arithmetic():
+def addition(x, y):
+    return x + y
 
-    def add(x, y):
-        '''Add function'''
-        x = int(input("Enter a number: "))
+
+def subtraction(x, y):
+    return x - y
+
+
+def greater(x, y):
+    if x > y:
         return x + y
 
-    def subtract(x, y):
-        '''Subtract function'''
-        y = int(input("Enter a number: "))
-        return x - y
+
+def is_not(x, y):
+    return x + y
+
+
+a = addition(2, 3)
+s = subtraction(9, 3)
