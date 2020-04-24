@@ -8,8 +8,9 @@ Frameworks
 1. create a virtual environment - can use Pycharm or CLI
 - create a new directory using: 'python3 -m venv new_venv_name'
 - use 'source path_to_file activate' to activate the virtual directory
-- install whatever programs you need in the venv
+- install whatever programs you need in the venv e.g. pytest, pytest-cov
 2. Pycharm setup for new venv
+- File > New project > select the venv folder you just created
 - select Pycharm > Preferences > Project interpreter > settings icon > Add > either New or Existing environment
  > add Interpreter
 - select Pycharm > Preferences > Python Integrated Tools > under 'Testing' select the default test runner e.g. unittest, PyTest...
