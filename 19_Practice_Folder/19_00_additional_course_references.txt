@@ -174,3 +174,5 @@ Jetbrains resources - https://www.jetbrains.com/resources/webinars/#product=all
 
 __ Virtual Environments __
 Configure a Virtual Environment in PyCharm - https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html
+
+£
