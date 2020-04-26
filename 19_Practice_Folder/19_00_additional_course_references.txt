@@ -167,6 +167,11 @@ What info do you need to start testing? - https://pythontesting.net/
 Test-Driven Development with Python - https://www.obeythetestinggoat.com/pages/book.html#toc
 Productive Pytest with PyCharm - Jetbrains video, check YouTube
 Pytest Webinar - https://github.com/okken/pycharm_2018_Feb/blob/master/README.md
+Coverage (for Test Coverage) - https://coverage.readthedocs.io/en/coverage-5.1/cmd.html
+Python test tools - https://wiki.python.org/moin/PythonTestingToolsTaxonomy
+100% Test Coverage in Python - https://www.youtube.com/watch?v=7BJ_BKeeJyM
+An introduction to code coverage, Atlassian - https://www.atlassian.com/continuous-delivery/software-testing/code-coverage
+
 
 __ Podcasts __
 Python Bytes podcasthttps://pythonbytes.fm/
@@ -175,4 +180,9 @@ Jetbrains resources - https://www.jetbrains.com/resources/webinars/#product=all
 __ Virtual Environments __
 Configure a Virtual Environment in PyCharm - https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html
 
-£
+__ Tox __
+Automate Build, Test and Release Workflows with Tox. Tox is a python based generic automation tool.
+Tox - https://tox.readthedocs.io/en/latest/index.html
+Tox tutorial & Github link - https://www.youtube.com/watch?v=PrAyvH-tm8E - https://gitlab.com/obestwalter/tox-webinar
+
+
