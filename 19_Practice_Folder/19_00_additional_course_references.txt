@@ -171,7 +171,11 @@ Coverage (for Test Coverage) - https://coverage.readthedocs.io/en/coverage-5.1/c
 Python test tools - https://wiki.python.org/moin/PythonTestingToolsTaxonomy
 100% Test Coverage in Python - https://www.youtube.com/watch?v=7BJ_BKeeJyM
 An introduction to code coverage, Atlassian - https://www.atlassian.com/continuous-delivery/software-testing/code-coverage
-
+Atlassian - CI/CD - Software testing for continuous delivery - https://www.atlassian.com/continuous-delivery/software-testing
+Atlassian - Automated software testing - https://www.atlassian.com/continuous-delivery/software-testing/automated-testing
+Corey M Schafer tutorials:
+- https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Unit-Testing
+- https://www.youtube.com/watch?v=6tNS--WetLI&t=378s
 
 __ Podcasts __
 Python Bytes podcasthttps://pythonbytes.fm/
