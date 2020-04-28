@@ -134,6 +134,7 @@ __ Variable Scope __
 Variable scope and lifetime -  https://python-textbok.readthedocs.io/en/1.0/Variables_and_Scope.html#variable-scope-and-lifetime
 Variables and scope - https://python-textbok.readthedocs.io/en/1.0/Variables_and_Scope.html#more-about-scope-crossing-boundaries
 Global and local scope of Python variables - https://matthew-brett.github.io/teaching/global_scope.html
+A beginner's guide to Python's namespaces, scope resolution, and the LEGB rule - https://nbviewer.jupyter.org/github/rasbt/python_reference/blob/master/tutorials/scope_resolution_legb_rule.ipynb
 
 __ Type Hinting __
 How to Use Static Type Checking in Python 3.6 - https://medium.com/@ageitgey/learn-how-to-use-static-type-checking-in-python-3-6-in-10-minutes-12c86d72677b

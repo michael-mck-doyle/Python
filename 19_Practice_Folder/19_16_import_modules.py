@@ -9,7 +9,26 @@ There are a lot of built-in modules in Python. Some of the important ones are â€
   to get the list of available modules. - from https://www.journaldev.com/14329/python-modules
 
 '''
+# Global variables
+print("Global variables")
+e = dir(globals())
+f = ()
+for i in e:
+    print(i)
 
+
+print()
+print()
+
+# Local variables
+print("Local variables")
+e = dir(globals())
+f = ()
+for i in e:
+    print(i)
+
+print()
+print()
 
 #unittest
 import unittest
@@ -19,6 +38,9 @@ f = ()
 for i in e:
     print(i)
 
+print()
+print()
+
 # enumerate
 print('enumerate Functions/Modules')
 e = dir(enumerate)
@@ -26,11 +48,17 @@ f = ()
 for i in e:
     print(i)
 
+print()
+print()
+
 import logging
 print('collections Functions/Modules')
 l = dir(logging)
 for i in l:
     print(i)
+
+print()
+print()
 
 
 import collections
@@ -38,6 +66,9 @@ print('collections Functions/Modules')
 c = dir(collections)
 for i in c:
     print(i)
+
+print()
+print()
 
 import time
 print('time Functions/Modules')

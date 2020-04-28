@@ -55,5 +55,6 @@ def house_cost(cost):
 
 print("$ value of houses sold: $", house_sales(houses_sold(100, 200, 300), house_cost(5000)))
 
-
-
+#example of type hinting
+#def my_add(a: int, b: int) -> int:
+ #   return a + b
