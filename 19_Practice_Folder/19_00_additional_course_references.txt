@@ -190,4 +190,6 @@ Automate Build, Test and Release Workflows with Tox. Tox is a python based gener
 Tox - https://tox.readthedocs.io/en/latest/index.html
 Tox tutorial & Github link - https://www.youtube.com/watch?v=PrAyvH-tm8E - https://gitlab.com/obestwalter/tox-webinar
 
+__Flask__
+The Flask Mega-Tutorial - https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 
