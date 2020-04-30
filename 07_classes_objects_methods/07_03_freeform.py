@@ -5,6 +5,7 @@
 - Create at least two objects of each class using the __init__ method.
 - Each object should have at least three attributes.
 - Each class should have at least two class attributes.
+
 - Create a print method in each class that prints out the attributes
     in a nicely formatted string.
 - Include a __str__ method in each class.
@@ -18,3 +19,49 @@ Cars, animals, poker games, sports teams, trees, beers, people etc...
 
 
 '''
+
+
+class Calculator:
+    """
+    mimicks actions of calculator
+    """
+    a = 10
+    b = 9
+    c = 8
+
+    # if a user does not input values when initialising an object, you can provide the object
+    # with default values, shown in the example below
+    def __init__(self, x=300, y="Woop-Woop-"):
+        self.x = x
+        self.y = y
+
+    def addclass_objectvalues(self):
+        return Calculator.a * self.y
+
+    def __str__(self):
+        return f" x = {self.x}, y = { self.y}, Class plus Object = {self.addclass_objectvalues()}"
+
+
+cal1 = Calculator(3)
+print(cal1)
+
+cal2 = Calculator(2, "oh yeah! ")
+print(cal2)
+
+
+class Two:
+    """
+
+    """
+
+    def __int__(self):
+        pass
+
+
+class Three:
+    """
+
+    """
+
+    def __int__(self):
+        pass

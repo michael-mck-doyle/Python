@@ -193,3 +193,5 @@ Tox tutorial & Github link - https://www.youtube.com/watch?v=PrAyvH-tm8E - https
 __Flask__
 The Flask Mega-Tutorial - https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 
+__Assigning Default Values to Functions or Class __init__ parameters__
+Python Default Arguments - https://www.programiz.com/python-programming/function-argument
