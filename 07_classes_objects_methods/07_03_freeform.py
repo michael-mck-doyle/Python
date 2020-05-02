@@ -45,23 +45,36 @@ class Calculator:
 cal1 = Calculator(3)
 print(cal1)
 
+
 cal2 = Calculator(2, "oh yeah! ")
 print(cal2)
 
 
-class Two:
+class Coffee:
     """
-
+    defines details coffee order
     """
+    barrista: str = "MJ"
+    store = "high street"
+    order_number = 1
 
-    def __int__(self):
-        pass
+    def __int__(self, size, hot_or_cold):
+        self.size = size
+        self.hot_or_cold = hot_or_cold
+        return self.order_number + 1
+
+    def order_list(self,  customer_name):
+        self.customer_name = customer_name
+        return customer_name
+
+    def __str__(self):
+        return f" {self.barrista} prepared order number {self.order_number} for customer {self.customer_name}"
 
 
-class Three:
-    """
-
-    """
-
-    def __int__(self):
-        pass
+espresso = Coffee()
+espresso.order_number += 1
+espresso.order_list("JM")
+print(espresso)
+mocha = Coffee()
+mocha.order_number += 2
+print(mocha)
