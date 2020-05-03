@@ -29,6 +29,9 @@ class Rectangle():
         return f"The area of the rectangle is {self.rectangle_area()} and the perimeter is {self.rectangle_perimeter()}."
 
 
+rect = Rectangle(8, 14)
+print(rect)
+
 class Circle:
     """calculate the area of a circle"""
 
@@ -45,8 +48,7 @@ class Circle:
         return f"The area of the circle is {round(self.circle_area(),5)} and the circumference is {round(self.circle_circumference(), 5)}."
 
 
-rect = Rectangle(8, 14)
-print(rect)
+
 
 circ = Circle(5)
 print(circ)

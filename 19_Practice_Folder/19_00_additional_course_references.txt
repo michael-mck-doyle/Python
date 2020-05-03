@@ -136,6 +136,9 @@ Variables and scope - https://python-textbok.readthedocs.io/en/1.0/Variables_and
 Global and local scope of Python variables - https://matthew-brett.github.io/teaching/global_scope.html
 A beginner's guide to Python's namespaces, scope resolution, and the LEGB rule - https://nbviewer.jupyter.org/github/rasbt/python_reference/blob/master/tutorials/scope_resolution_legb_rule.ipynb
 
+__ Namespace __ & __dict__
+using print(object.__dict__) returns details of the namespace for an object
+
 __ Type Hinting __
 How to Use Static Type Checking in Python 3.6 - https://medium.com/@ageitgey/learn-how-to-use-static-type-checking-in-python-3-6-in-10-minutes-12c86d72677b
 How to use type hints in python 3.6? - https://stackoverflow.com/questions/41356784/how-to-use-type-hints-in-python-3-6
