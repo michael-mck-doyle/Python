@@ -17,3 +17,28 @@ your own for this exercise but if you are stuck, some ideas include:
 
 '''
 
+
+class Drink:
+    def __init__(self, size):
+        self.size = size
+
+
+class FizzyDrink(Drink):
+    def __init__(self, size, bubbles):
+        super().__init__(size)
+        self.bubbles = bubbles
+
+
+class Beer(FizzyDrink):
+    def __init__(self, size, bubbles, alcoholic):
+        super().__init__(size, bubbles)
+        self.alcoholic = alcoholic
+
+    def __repr__(self):
+        return f"My drink order is {self.size} mls of alcoholic {self.alcoholic} bubbles {self.bubbles}"
+
+
+print()
+halfPint = Beer(330, True, True)
+print(halfPint)
+

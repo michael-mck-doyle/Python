@@ -19,18 +19,72 @@ CLASSES AND INHERITANCE
 
 '''
 
-class Movie:
-    """ Movies """
+
+class Movie(object):
+    """
+    database of movies
+    """
+    Screenings = 0
+    Movies = 0
+    Reviews = 0
+
+    newer = []
+    older = []
+
     def __init__(self, year, title):
         self.year = year
         self.title = title
+        Movie.Movies += 1
 
-    class Movie_Subclass:
+    def movie_age(self, year):
+        if int(year) < 2000:
+            Movie.older.append()
+        else:
+            Movie.newer.append()
 
-        def __init__(self):
-            pass
+    for m in older:
+        print(m)
+    for m in newer:
+        print(m)
 
-        class Movie_Genre:
 
-            def __init__(self):
-                pass
+class Romcom(Movie):
+
+    """
+    database of RomCom movies
+    """
+
+    def __repr__(self):
+        return f"{self.year}, {self.title}"
+
+
+class ActionMovie(Movie):
+    """
+    database of Action movies
+    """
+
+
+    def __init__(self, year, title, pg=13):
+        super().__init__(year, title)
+        self.pg = pg
+
+    def __repr__(self):
+        return f"{self.year}, {self.title}, {self.pg}"
+
+
+Run = ActionMovie(2018, "Run", 13)
+print(Run)
+print(Movie.Movies)
+Jewelable = Romcom(2019, "Jewelable")
+print(Jewelable)
+print(Movie.Movies)
+Gremlins = Movie(1980, "Gremlins")
+print(Gremlins)
+
+print(Movie.newer[0:])
+print(Movie.older[0:])
+
+
+
+
+
