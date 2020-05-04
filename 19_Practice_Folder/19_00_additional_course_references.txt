@@ -198,3 +198,24 @@ The Flask Mega-Tutorial - https://blog.miguelgrinberg.com/post/the-flask-mega-tu
 
 __Assigning Default Values to Functions or Class __init__ parameters__
 Python Default Arguments - https://www.programiz.com/python-programming/function-argument
+
+__ Methods __
+
+__ Class Methods __
+There can be 3 types of methods within a class:
+ - a regular instance method that takes (self) as an argument
+ - a class method that takes (cls) as an argument
+ - a static method that takes neither self or cls as an argument - use decorator @staticmethod
+Tutorial 3: classmethods and static methods - https://www.youtube.com/watch?v=rq8cL2XMM5M
+ - use decorator @classmethod to declare a method as a class method
+
+__ Static Methods __
+- these generally don't take any arguments from the instance or class i.e. they can be standalone functions/methods
+- use the decorator @staticmethod to highlight a method is a static method
+
+__add__
+Overloading __add__ method - see
+
+__ Property Decorators - Getters, Setters, and Deleters __
+https://www.youtube.com/watch?v=jCzT9XFZ5bw
+

@@ -62,23 +62,34 @@ class CarPark:
         self.num_cars = num_cars
         self.num_suvs = num_suvs
 
+        CarPark.car_spaces -= 1
+
     def calculate_spaces(self):
         if CarPark.car_spaces - self.num_cars == 0:
             print(f"The car park is full. There are no spaces available.")
         else:
             return CarPark.car_spaces - self.num_cars
 
+    #def __str__(self):
+       # return f"There are {self.calculate_spaces()} empty spaces in the car park"
+
     def __str__(self):
-        return f"There are {self.calculate_spaces()} empty spaces in the car park"
+        return f"There are {CarPark.car_spaces} empty spaces in the car park"
 
 
 print()
-HopeStreet = CarPark(400)
+HopeStreet = CarPark()
 print(HopeStreet)
-
+print()
+BothwellStreet = CarPark()
+print(BothwellStreet)
 
 #_______________________________________________
+# example overloading __add__ method
+# example of using @classmethods also known as alternative constructors
+# example of static methods
 
+import datetime
 
 class Employee:
     """"
@@ -93,21 +104,46 @@ class Employee:
         self.pay = pay
         self.email = first + "." + "@company.com"
 
+    def __add__(self, other):
+        x = self.pay + other.x
+        y = self.pay + other.y
+
     #def __str__(self):
         #return f"Employee {self.first} {self.last} earns {self.pay} "
 
     def fullname(self):
         return self.first + " " + self.last
 
+    @classmethod
+    def set_raise_amt(cls, amount):
+        cls.raise_amount = amount
+
+    @staticmethod
+    def is_workday(day):
+        if day.weekday() == 5 or day.weekday() == 6:
+            return False
+        return True
+
+    def __add__(self, other):
+        return self.pay + other.pay
+
+    def __len__(self):
+        return len(self.fullname())
+
 #printing namespace
 
-
+# use object.__dict__
 
 John = Employee("John", "Smith", 50000)
 Mary = Employee("Mary", "Smith", 60000)
 print()
 print(John.fullname())
 print(Mary.fullname())
+
+print(John.__dict__)
+print(Mary.__dict__)
+
+print(f"The combined of John and Mary is {John + Mary}")
 
 
 #  ---------------------------------------------
@@ -139,7 +175,7 @@ class CoffeeShop:
             print("Choose another item from the menu.")
 
     def __str__(self):
-        return f"The price of your coffee is ${self.order_price()}.  There are {CoffeeShop.num_orders} orders so far."
+        return f"The price of your coffee is ${self.order_price()}.  Your order number is {CoffeeShop.num_orders}"
 
 
 print()
@@ -162,6 +198,10 @@ print(latte)
 
 machiato = CoffeeShop("small")
 print(machiato)
+print(machiato.__dict__)
+
+americano = CoffeeShop("large")
+print(americano)
 print(machiato.__dict__)
 
 #_________________________________________________
