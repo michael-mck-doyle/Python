@@ -7,11 +7,11 @@ all_words = []
 long_words = []
 
 with open('words.txt', 'r') as fin:
-    #for word in fin.readlines():
+    for word in fin.readlines():
     #for word in fin:
      #   all_words.append(word)
     #for word in all_words:
-    for word in fin:
+    #for word in fin:
         if len(word) > 20:
             long_words.append(word)
 
