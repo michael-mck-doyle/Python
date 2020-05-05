@@ -9,7 +9,7 @@ with open('words.txt', 'r') as fin:
     for word in fin.readlines():
         #all_words.append(word)
         all_words.append(word.rstrip("\n"))
-        
+
 with open('words_reverse.txt', 'w') as f_out:
     for word in all_words:
         all_words.reverse()
