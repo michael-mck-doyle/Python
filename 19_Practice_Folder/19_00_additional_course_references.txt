@@ -219,3 +219,7 @@ Overloading __add__ method - see
 __ Property Decorators - Getters, Setters, and Deleters __
 https://www.youtube.com/watch?v=jCzT9XFZ5bw
 
+
+__ file I/O __
+7.2. Reading and Writing File - https://docs.python.org/3/tutorial/inputoutput.html
+

@@ -37,10 +37,11 @@ class Movie(object):
         Movie.Movies += 1
 
     def movie_age(self, year):
-        if int(year) < 2000:
-            Movie.older.append()
+        for m in Movie:
+            if int(year) < 2000:
+                Movie.older.append(m)
         else:
-            Movie.newer.append()
+            Movie.newer.append(m)
 
     for m in older:
         print(m)
@@ -82,6 +83,8 @@ Gremlins = Movie(1980, "Gremlins")
 print(Gremlins)
 
 print(Movie.newer[0:])
+for m in Movie.newer:
+    print(m)
 print(Movie.older[0:])
 
 
