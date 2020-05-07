@@ -9,6 +9,41 @@ There are a lot of built-in modules in Python. Some of the important ones are â€
   to get the list of available modules. - from https://www.journaldev.com/14329/python-modules
 
 '''
+import logging
+
+# Logging
+print("Logging")
+e = dir(())
+f = ()
+for i in e:
+    print(i)
+
+
+
+print()
+print()
+
+# Exceptions
+print("Exceptions")
+e = dir(Exception())
+f = ()
+for i in e:
+    print(i)
+
+print()
+print()
+
+
+# Exceptions
+print("Base Exceptions")
+e = dir(BaseException())
+f = ()
+for i in e:
+    print(i)
+
+print()
+print()
+
 # Global variables
 print("Global variables")
 e = dir(globals())

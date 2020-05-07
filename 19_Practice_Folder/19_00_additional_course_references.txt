@@ -180,6 +180,7 @@ Atlassian - Automated software testing - https://www.atlassian.com/continuous-de
 Corey M Schafer tutorials:
 - https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Unit-Testing
 - https://www.youtube.com/watch?v=6tNS--WetLI&t=378s
+Jetbrains Documentation Pytest - https://www.jetbrains.com/help/pycharm/pytest.html
 
 __ Podcasts __
 Python Bytes podcasthttps://pythonbytes.fm/
@@ -223,3 +224,10 @@ https://www.youtube.com/watch?v=jCzT9XFZ5bw
 __ file I/O __
 7.2. Reading and Writing File - https://docs.python.org/3/tutorial/inputoutput.html
 
+__ JetBrains Pycharm Documentation __
+Pytest - https://www.jetbrains.com/help/pycharm/pytest.html
+
+__ Exceptions __
+Built-in Exceptions - https://docs.python.org/3/library/exceptions.html#bltin-exceptions
+8. Errors and Exceptions - https://docs.python.org/3/tutorial/errors.html#errors-and-exceptions
+Exception Hierarchy - https://docs.python.org/3/library/exceptions.html#exception-hierarchy

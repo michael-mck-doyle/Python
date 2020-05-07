@@ -23,3 +23,55 @@ BONUS CHALLENGE: write a custom Exception that inherits from Exception and raise
 first 100 characters of any of the files contain the string "Prince".
 
 '''
+
+
+try:
+
+    war = []
+    crime = []
+    pride = []
+    x = []
+    y = []
+    z = []
+
+    with open('/Users/Michael/Documents/CodingNomads_Python/labs/09_exceptions/books/war_and_peace.txt', 'r') as fin:
+        #word = fin.readlines()
+        for word in fin.readlines():
+            war.append(word)
+        #print(war)
+        x = war[0][1]
+        print(f"The first character in 'War and Peace' is '{x}'. ")
+
+    with open('/Users/Michael/Documents/CodingNomads_Python/labs/09_exceptions/books/pride_and_prejudice.txt', 'r') as fin:
+        for word in fin.readlines():
+            pride.append(word)
+        #print(pride)
+        z = pride[0][1]
+        print(f"The first character in 'Pride and Prejudice' is '{z}'.")
+
+    with open('/Users/Michael/Documents/CodingNomads_Python/labs/09_exceptions/books/crime_and_punishment.txt', 'w') as fout:
+        fout.write('')
+
+    with open('/Users/Michael/Documents/CodingNomads_Python/labs/09_exceptions/books/crime_and_punishment copy.txt', 'r') as fin:
+        for word in fin.readlines():
+            crime.append(word)
+        #print(crime)
+        y = crime[0][1]
+        print(f"The first character in 'Crime and Punishment' is '{y}'.")
+
+
+except FileNotFoundError as e:
+    print("File was not found", e)
+except NameError as e:
+    print("File import name error", e)
+except ValueError as e:
+    print("The file has already been closed.", e)
+except TypeError as e:
+    print(e)
+except KeyboardInterrupt as e:
+    print("User stopped program.")
+except IndexError as e:
+    print("Check List for errors.", e)
+
+
+

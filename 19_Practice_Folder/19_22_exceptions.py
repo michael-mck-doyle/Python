@@ -10,6 +10,9 @@ what happens it will execute.
 - "raise" custom exceptions - you can actually raise your own exception if you actually want a program to terminate (which
 is the opposite of the try: / except which is designed to stop the program crashing!).
 - custom exceptions - you cam create your own custom exception class and use it in your program to generate and exception message - see below
+
+Exception Hierarchy - https://docs.python.org/3/library/exceptions.html#exception-hierarchy
+
 '''
 
 

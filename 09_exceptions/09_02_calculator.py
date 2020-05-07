@@ -8,3 +8,18 @@ the script should handle:
 Test it and make sure it does not crash when you enter incorrect values.
 
 '''
+
+try:
+    x = input("Enter a number: ")
+    y = input("Enter a second number: ")
+    x = int(x)
+    y = int(y)
+    quotient = x // y
+    print(quotient)
+except ValueError as e:
+    print("Please enter an int '", e)
+except TypeError as e:
+    print("unsupported operand type(s) for //: 'str' and 'str'", e)
+except ZeroDivisionError as e:
+    print("integer division or modulo by zero is not allowed", e)
+
