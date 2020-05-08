@@ -6,6 +6,8 @@ Using list comprehension, create a list "positive" from the list
 
 numbers = [5, -8, 3, 10, -19, -22, 44, 2, -1, 4, 42]
 
+positive = [x for x in numbers if x % 2 == 0]
+print(positive)
 
 #List comprehension examples
 numbers = [i for i in range(10, 20)]
