@@ -25,3 +25,12 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+'''
+for i in office:
+    x = i
+
+    print(f'{x.}')
+'''
+
+
+
