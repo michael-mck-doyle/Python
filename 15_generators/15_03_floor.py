@@ -4,3 +4,5 @@ Adapt your Generator expression from the previous Exercise
 What numbers do you get?
 
 '''
+
+
