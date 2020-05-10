@@ -245,3 +245,6 @@ ___ itertools __
 itertools — Functions creating iterators for efficient looping - https://docs.python.org/3/library/itertools.html#itertools.product
 Itertools in Python 3, By Example - https://realpython.com/python-itertools/
 itertools — Iterator Functions - https://pymotw.com/3/itertools/index.html
+
+__ Regex __
+Regular Expressions: Regexes in Python, Part 1 - https://realpython.com/regex-python/
