@@ -1,0 +1,25 @@
+
+Using decorators involves passing a function through a series of other functions such that
+the original functionality is different coming out than when it went in.
+
+like putting coffee through a coffee machine.....it's still coffee but comes out with different
+properties than it had when it went in.
+
+decorators are simply a means of taking a function and extending/changing it's behaviour by passing it through a series of
+other functions
+
+coffee beans (initial function) ---> coffee grinder (  ) ---> adding hot water ---> hot coffee (somewhat altered initial function)
+
+Functions can be added to a list just like any other object.
+
+
+Decorators contain functions with the following terms:
+
+- Initial Function - this is the function who's behaviour we are going to augment or change in some way (sausage meat, coffee beans)
+- Decorator function - this is the entry point where the initial function comes in as an argument to the Decorator function (sausage factory, coffee grinder)
+- Wrapper function - alters and/or augments the behaviour of initial function before returning it to you - this is where the sausage meat
+ gets turned into sausages (vegetarian of course!).  i.e. it takes the initial input and does something to it e.g wraps up the sausage, makes the coffee :-)
+
+ so ......Initial Function --->  Decorator Function ---> Wrapper Function (returns your input all wrapped up in some nice shiny new functionality)
+
+

@@ -117,10 +117,10 @@ Using BeautifulSoup to parse HTML and extract press briefings URLs - http://www.
 Beautiful Soup Documentation - Beautiful Soup is a Python library for pulling data out of HTML and XML files - https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 
-__ Libraries & Modules __
+__ Libraries & Modules & Functions __
 Python 3 Module of the Week - https://pymotw.com/3/
 PyMOTW-3 is a series of articles written by Doug Hellmann to demonstrate how to use the modules of the Python 3 standard library.
-
+Python's Built-in Functions - https://docs.python.org/3.8/library/functions.html#enumerate
 requests - The requests library is the de facto standard for making HTTP requests in Python - https://realpython.com/python-requests/
 Python requests - https://realpython.com/python-requests/
 HTTP Request Methods - https://www.w3schools.com/tags/ref_httpmethods.asp
@@ -268,6 +268,12 @@ Making sense of generators, coroutines, and “yield from” in Python - https:/
 
 ___ Aggregate Functions __
 enumerate - To count off or name one by one
-
+ - https://docs.python.org/3.8/library/functions.html#enumerate
 __ Django __
 Django Tutorial - https://www.geeksforgeeks.org/django-tutorial/?ref=leftbar-rightbar
+
+__ Decorators __
+Decorators for Functions and Methods - https://www.python.org/dev/peps/pep-0318/
+
+__ Data Science __
+Python Data Science Tutorials - http://python-ds.com/
