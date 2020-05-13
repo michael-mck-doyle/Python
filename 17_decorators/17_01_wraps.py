@@ -16,14 +16,19 @@ def publish():
 
 
 # 2 - more decorator practice
-def name_baby(initial_func):
+def name_it(initial_func):
     def wrapper_func():
-        print(f"{initial_func()} ...is the perfect name for your baby!")
+        print(f"{initial_func()}...is the perfect name!")
     return wrapper_func()
 
 
-@name_baby
-def baby_name(name=input("Enter a name: ")):
+@name_it
+def baby_name(name=input("Enter a baby name: ")):
+    return name
+
+
+@name_it
+def dog_name(name=input("Enter a dog name: ")):
     return name
 
 
