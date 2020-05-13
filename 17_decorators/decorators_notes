@@ -22,4 +22,6 @@ Decorators contain functions with the following terms:
 
  so ......Initial Function --->  Decorator Function ---> Wrapper Function (returns your input all wrapped up in some nice shiny new functionality)
 
+by using the @decorator_function you can apply the decorator directly to another function.  It can be applied to any function you want.
+
 

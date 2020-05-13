@@ -1,0 +1,11 @@
+Just some notes for keeping track of my coding progress...
+
+__ 13th May 2020 __
+
+1. learnt how to add user input directly into a function as an argument e.g.
+
+ def baby_name(name = input("Enter a name: ")):
+    return name
+
+2. learnt how to create and return output from basic decorators using syntactic sugar '@'
+

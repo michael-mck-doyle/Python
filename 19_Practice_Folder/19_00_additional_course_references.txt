@@ -274,6 +274,8 @@ Django Tutorial - https://www.geeksforgeeks.org/django-tutorial/?ref=leftbar-rig
 
 __ Decorators __
 Decorators for Functions and Methods - https://www.python.org/dev/peps/pep-0318/
+Primer on Python Decorators - https://realpython.com/primer-on-python-decorators/
+Decorators - https://www.python-course.eu/python3_decorators.php
 
 __ Data Science __
 Python Data Science Tutorials - http://python-ds.com/
