@@ -269,6 +269,7 @@ Making sense of generators, coroutines, and “yield from” in Python - https:/
 ___ Aggregate Functions __
 enumerate - To count off or name one by one
  - https://docs.python.org/3.8/library/functions.html#enumerate
+
 __ Django __
 Django Tutorial - https://www.geeksforgeeks.org/django-tutorial/?ref=leftbar-rightbar
 
@@ -276,6 +277,10 @@ __ Decorators __
 Decorators for Functions and Methods - https://www.python.org/dev/peps/pep-0318/
 Primer on Python Decorators - https://realpython.com/primer-on-python-decorators/
 Decorators - https://www.python-course.eu/python3_decorators.php
+
+
+__ Lambda Expressions __
+Map, Filter, Lambda, and List Comprehensions - http://www.u.arizona.edu/~erdmann/mse350/topics/list_comprehensions.html
 
 __ Data Science __
 Python Data Science Tutorials - http://python-ds.com/
