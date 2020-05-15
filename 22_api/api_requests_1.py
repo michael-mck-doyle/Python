@@ -1,28 +1,36 @@
 import requests
 from pprint import pprint
+import json
 
-response = requests.get("http://demo.codingnomads.co:8080/tasks_api/users?email=caden@email.com")
-print(response.status_code)
-pprint(response.json)
+response = requests.get("http://demo.codingnomads.co:8080/tasks_api/users?email=Ca$HMonEY@gmail.com")
+#print(response.status_code)
+#pprint(f"Header: {response.headers}")
+#pprint(f"Body: {response.content}")
+data = response.json()
+print(data)
 
-#is the same as
+print()
+print("...is the same as")
+print()
 
 params = {
-    "email": "ryan@codingnomads.co"
+    "email": "Ca$HMonEY@gmail.com"
 }
 
 response = requests.get("http://demo.codingnomads.co:8080/tasks_api/users", params=params)
-print(response.status_code)
-pprint(response.json())
+pprint(response.status_code)
+pprint(f"Header: {response.headers}")
+pprint(f"Body: {response.content}")
 
 
-'''
-base_url = "http://demo.codingnomads.co:8080/tasks_api/tasks?userId=1&complete=true"
-response = requests.get(base_url)
-print(response.status_code)
-pprint(response.raw)
 
-response = requests.get("http://demo.codingnomads.co:8080/tasks_api/users?email=ryan@codingnomads.co")
-#print(response.status_code)
-pprint(response.json())
-'''
+#print(f"Response Content: {response.content}")
+#pprint(response.json)
+#pprint(response.content)
+#pprint(f"Response Content: {response.content}")
+#print(response.content)
+
+
+
+# Response Content: b'{"data":[{"id":3,"first_name":"Caden5","last_name":"MacKenzie5","email":"caden@email.com","createdAt":1549560964000,"updatedAt":1585933084000}
+

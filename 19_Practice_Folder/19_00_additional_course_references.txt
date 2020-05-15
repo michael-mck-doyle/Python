@@ -292,4 +292,15 @@ Basics of Computer Networking - https://www.geeksforgeeks.org/basics-computer-ne
 Working of ISO-OSI Model - https://www.geeksforgeeks.org/working-of-iso-osi-model/?ref=leftbar-rightbar
 HTTP request methods - https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
 Add JSON formatter extension to browser - https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en
+Python Requests Module - https://www.w3schools.com/PYTHON/module_requests.asp
+How To Get Started With the Requests Library in Python - https://www.digitalocean.com/community/tutorials/how-to-get-started-with-the-requests-library-in-python
+HTTP Request Methods - https://www.w3schools.com/tags/ref_httpmethods.asp
+Send HTTP Requests in Python - https://code-maven.com/http-requests-in-python
 
+
+__ JSON __
+JSON encoder and decoder - https://docs.python.org/3/library/json.html
+Introducing JSON - https://www.json.org/json-en.html
+
+__ XML __
+xml.etree.ElementTree - https://docs.python.org/3/library/xml.etree.elementtree.html
