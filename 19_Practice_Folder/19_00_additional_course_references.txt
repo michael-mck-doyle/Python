@@ -284,3 +284,12 @@ Map, Filter, Lambda, and List Comprehensions - http://www.u.arizona.edu/~erdmann
 
 __ Data Science __
 Python Data Science Tutorials - http://python-ds.com/
+
+__ REST and Restful API's __
+REST API Tutorial - https://www.restapitutorial.com/
+Webopedia - https://www.webopedia.com/TERM/H/HTTP.html
+Basics of Computer Networking - https://www.geeksforgeeks.org/basics-computer-networking/
+Working of ISO-OSI Model - https://www.geeksforgeeks.org/working-of-iso-osi-model/?ref=leftbar-rightbar
+HTTP request methods - https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+Add JSON formatter extension to browser - https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en
+
