@@ -10,3 +10,4 @@ print(f"Response Status Code: {response.status_code}")
 print(f"Response Headers: {response.headers}")
 print(f"Response Encoding: {response.encoding}")
 print(f"Response URL: {response.url}")
+
