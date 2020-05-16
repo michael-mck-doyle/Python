@@ -5,7 +5,7 @@ import json
 response = requests.get("http://demo.codingnomads.co:8080/tasks_api/users?email=Ca$HMonEY@gmail.com")
 #print(response.status_code)
 #pprint(f"Header: {response.headers}")
-#pprint(f"Body: {response.content}")
+pprint(f"Body: {response.content}")
 data = response.json()
 print(data)
 
