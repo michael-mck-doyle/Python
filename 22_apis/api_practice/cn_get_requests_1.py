@@ -1,7 +1,7 @@
 import requests
 from pprint import pprint
 import json
-
+''''''
 response = requests.get("http://demo.codingnomads.co:8080/tasks_api/users?email=Ca$HMonEY@gmail.com")
 #print(response.status_code)
 #pprint(f"Header: {response.headers}")
@@ -14,7 +14,8 @@ print("...is the same as")
 print()
 
 params = {
-    "email": "Ca$HMonEY@gmail.com"
+    "email": "Ca$HMonEY@gmail.com", #returns user based on email address
+
 }
 
 response = requests.get("http://demo.codingnomads.co:8080/tasks_api/users", params=params)

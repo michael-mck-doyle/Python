@@ -6,3 +6,27 @@ Postman -
 __ URL's __
 Yahoo Developer YQL - https://developer.yahoo.com/yql/guide/users-overview.html
 URL Decoder/Encoder - https://meyerweb.com/eric/tools/dencoder/
+
+__ Student App for Postmam Tutorials __
+Student app - http://localhost:8080/student/list (start application first by typing java -jar rest.jar from Terminal)
+ - if the app is running correctly you will see a list of student names.  It is possible to start the application on another
+ port, for instance if port 8080 is being used by another application.  To start the app on a port of your choice you can enter
+ java -jar rest.jar --server.port=(enter port of your choosing here)
+
+ __ Docker __
+
+Docker docs - https://docs.docker.com/
+
+_ Opening Student App Using Docker _
+go to docker hub then search for "tejasn1" - copy the command "docker pull tejasn1/student-app" and run in Terminal window.
+Steps:
+1. run "Docker" first
+2. run command "docker pull tejasn1/student-app" - this will pull down the Student App image from DockerHub to your local machine
+3. type in "docker images" to view all of the Docker images on your system
+4. run the "Student App" container using "docker run -p 8085:8080 -d tejasn1/student-app" - "8085" represents the port the Student App will
+ be running on.  You can change this to any other valid port number that is not in use.  "-d" means run the app in the background.
+5. type "docker ps" to view the docker containers which are running
+6. open a browser session and enter "http://localhost:8085/student/list" to view the Student App and check it is running (it is just a list of
+ mock student profiles)
+7. to stop an app running in a Docker container type "Docker container stop 'container ID' " - the container ID can be viewed after typing the "Docker ps" command
+
