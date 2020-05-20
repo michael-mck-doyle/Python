@@ -1,11 +1,22 @@
 __ References for API tutorials __
 
-Postman -
 
+- "curl" is a tool to transfer data from or to a server, using one of the supported protocols (DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP).
+ The command is designed to work without user interaction - https://curl.haxx.se/docs/manpage.html
+ - "Swagger" - Simplify API development for users, teams, and enterprises with the Swagger open source and professional toolset.
+  Find out how Swagger can help you design and document your APIs at scale.
 
 __ URL's __
 Yahoo Developer YQL - https://developer.yahoo.com/yql/guide/users-overview.html
 URL Decoder/Encoder - https://meyerweb.com/eric/tools/dencoder/
+Test RESTful Web services - https://www.jetbrains.com/help/pycharm/testing-restful-web-services.html
+HTTP client in PyCharm code editor - https://www.jetbrains.com/help/pycharm/http-client-in-product-code-editor.html#
+Node.JS - https://nodejs.org/en/
+NPM (Node package manage) - https://www.npmjs.com/
+curl - https://curl.haxx.se/docs/manpage.html
+Swagger - API Development for everyone - https://swagger.io/
+Cross Browser Testing - https://crossbrowsertesting.com/
+
 
 __ Student App for Postmam Tutorials __
 Student app - http://localhost:8080/student/list (start application first by typing java -jar rest.jar from Terminal)
@@ -14,7 +25,6 @@ Student app - http://localhost:8080/student/list (start application first by typ
  java -jar rest.jar --server.port=(enter port of your choosing here)
 
  __ Docker __
-
 Docker docs - https://docs.docker.com/
 
 _ Opening Student App Using Docker _
@@ -30,3 +40,13 @@ Steps:
  mock student profiles)
 7. to stop an app running in a Docker container type "Docker container stop 'container ID' " - the container ID can be viewed after typing the "Docker ps" command
 
+__ Best Buy App Instructions __
+1. clone BestBuy/api-playground repository - https://github.com/BestBuy/api-playground
+2. check you have node js installed - type: "node -v", otherwise download from https://nodejs.org/en/
+   to update Node.js use:
+   Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+3. Also check you have npm installed: "npm -v" - to update npm: "npm install -g npm to update"
+4. type "npm start" to start the Best Buy API Playground - when it starts you will receive a message
+    like: "Best Buy API Playground started at http://localhost:3030".  You can copy the url and check the app is running
+    in your browser.
+5.
