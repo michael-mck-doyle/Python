@@ -297,10 +297,15 @@ How To Get Started With the Requests Library in Python - https://www.digitalocea
 HTTP Request Methods - https://www.w3schools.com/tags/ref_httpmethods.asp
 Send HTTP Requests in Python - https://code-maven.com/http-requests-in-python
 
-
 __ JSON __
 JSON encoder and decoder - https://docs.python.org/3/library/json.html
 Introducing JSON - https://www.json.org/json-en.html
 
 __ XML __
 xml.etree.ElementTree - https://docs.python.org/3/library/xml.etree.elementtree.html
+
+__ Databases __
+SQL Alchemy - https://www.sqlalchemy.org/
+install SQL Alchemy in venv - pip install sqlalchemy
+
+
