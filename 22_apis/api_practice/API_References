@@ -50,3 +50,16 @@ __ Best Buy App Instructions __
     like: "Best Buy API Playground started at http://localhost:3030".  You can copy the url and check the app is running
     in your browser.
 5.
+
+
+__ Web-Socket API vs RESTful API __
+WebSockets vs REST: Understanding the Difference - https://www.pubnub.com/blog/websockets-vs-rest-api-understanding-the-difference/
+
+
+__ WebSocket frameworks __
+The WebSocket API (WebSockets) - https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+ - the above contains a lot of tools that can be used in building web-socket API's
+WebSocket frameworks
+Socket Programming in Python - https://www.geeksforgeeks.org/socket-programming-python/
+Why you need a framework with your WebSockets - https://hackernoon.com/why-you-need-a-framework-with-your-websockets-98330827e3e
+Why use WebSockets? - https://www.fullstackpython.com/websockets.html

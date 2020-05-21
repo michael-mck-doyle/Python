@@ -2,6 +2,7 @@ import sqlalchemy
 import pymysql
 from pprint import pprint
 
+
 '''
 engine = sqlalchemy.create_engine('mysql+pymysql://root:fidessa01@localhost/sakila')
 
