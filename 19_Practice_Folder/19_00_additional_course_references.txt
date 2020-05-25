@@ -322,3 +322,4 @@ Why you need a framework with your WebSockets - https://hackernoon.com/why-you-n
 Why use WebSockets? - https://www.fullstackpython.com/websockets.html
 
 __ Capstone Projects __
+- add projects here
