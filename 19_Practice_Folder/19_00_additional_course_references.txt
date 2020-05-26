@@ -323,3 +323,10 @@ Why use WebSockets? - https://www.fullstackpython.com/websockets.html
 
 __ Capstone Projects __
 - add projects here
+
+__ Scrum references and exam __
+Suggested Reading for Professional Scrum Master - https://www.scrum.org/resources/suggested-reading-professional-scrum-master
+
+__ Coding Exercises __
+https://code-exercises.com/blog/2020/05/23/best-code-kata-ever.html
+- 
