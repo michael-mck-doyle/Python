@@ -329,4 +329,4 @@ Suggested Reading for Professional Scrum Master - https://www.scrum.org/resource
 
 __ Coding Exercises __
 https://code-exercises.com/blog/2020/05/23/best-code-kata-ever.html
-- 
+-

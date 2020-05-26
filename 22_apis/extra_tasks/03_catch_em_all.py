@@ -11,3 +11,27 @@ BONUS: Using your script, create a folder and download the main 'front_default'
        Name the files appropriately using the name data from your response.
 
 '''
+
+import requests
+from pprint import pprint
+import json
+'''
+response = requests.get("https://pokeapi.co/docs/v2.html#pokemon")
+#print(response.status_code)
+#pprint(f"Header: {response.headers}")
+pprint(f"Body: {response.content}")
+data = response.json()
+print(data)
+
+print()
+
+'''
+params = {
+    "color": "#f5871f", #returns user based on email address
+
+}
+
+response = requests.get("https://pokeapi.co/docs/v2.html#pokemon", params=params)
+pprint(response.status_code)
+pprint(f"Header: {response.headers}")
+pprint(f"Body: {response.content}")
