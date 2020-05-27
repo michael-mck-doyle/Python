@@ -11,3 +11,4 @@ print(f"Response Headers: {response.headers}")
 print(f"Response Encoding: {response.encoding}")
 print(f"Response URL: {response.url}")
 
+

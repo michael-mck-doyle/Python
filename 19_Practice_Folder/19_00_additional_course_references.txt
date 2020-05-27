@@ -296,6 +296,8 @@ Python Requests Module - https://www.w3schools.com/PYTHON/module_requests.asp
 How To Get Started With the Requests Library in Python - https://www.digitalocean.com/community/tutorials/how-to-get-started-with-the-requests-library-in-python
 HTTP Request Methods - https://www.w3schools.com/tags/ref_httpmethods.asp
 Send HTTP Requests in Python - https://code-maven.com/http-requests-in-python
+HTTP Request Methods - https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+HTTP Status codes -
 
 __ JSON __
 JSON encoder and decoder - https://docs.python.org/3/library/json.html
