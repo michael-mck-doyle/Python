@@ -6,6 +6,12 @@ base_url = "http://demo.codingnomads.co:8080/tasks_api/users?"
 response = requests.get(base_url)
 
 message_back = response.json()
+#pprint(message_back)
+data = message_back['data']
+data1 = (data[7])
+data2 = data1['last_name']
+pprint(data2)
+
 #x = message_back['data'][2]['email']
 #print(f"the email address returned is {x}")
 
