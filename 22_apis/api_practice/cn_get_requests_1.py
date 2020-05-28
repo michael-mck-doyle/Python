@@ -13,12 +13,12 @@ print()
 print("...is the same as")
 print()
 
-params = {
+key_value_params = {
     "email": "Ca$HMonEY@gmail.com", #returns user based on email address
 
 }
 
-response = requests.get("http://demo.codingnomads.co:8080/tasks_api/users", params=params)
+response = requests.get("http://demo.codingnomads.co:8080/tasks_api/users", params=key_value_params)
 pprint(response.status_code)
 pprint(f"Header: {response.headers}")
 pprint(f"Body: {response.content}")
