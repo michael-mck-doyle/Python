@@ -31,7 +31,7 @@ params = {
 
 }
 
-response = requests.get("https://pokeapi.co/docs/v2.html#pokemon", params=params)
+response = requests.get("https://pokeapi.co/api/v2/pokemon/ditto", params=params)
 pprint(response.status_code)
 pprint(f"Header: {response.headers}")
 pprint(f"Body: {response.content}")
