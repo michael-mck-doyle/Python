@@ -15,6 +15,7 @@ message_back = response.json()
 data_body = message_back['data']
 #pprint(data_body)
 
+
 for v in data_body:
     for e in v:
         if e == 'email':
