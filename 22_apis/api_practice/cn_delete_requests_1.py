@@ -3,12 +3,12 @@ from pprint import pprint
 import json
 
 base_url = "http://demo.codingnomads.co:8080/tasks_api/users"
-response = requests.delete(base_url + "/125")
+response = requests.delete(base_url + "/141")
 print(response.status_code)
 
 
 params = {
-    "id": "124"
+    "id": "141"
 }
 
 response = requests.get("http://demo.codingnomads.co:8080/tasks_api/users", params=params)
