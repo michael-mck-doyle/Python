@@ -299,6 +299,11 @@ Send HTTP Requests in Python - https://code-maven.com/http-requests-in-python
 HTTP Request Methods - https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
 HTTP Status codes -
 
+__ Building an API __
+How to Build an API From The Ground Up - https://swagger.io/blog/api-development/how-to-build-an-api/
+OpenAPI Specification - https://swagger.io/specification/
+
+
 __ JSON __
 Python Parse JSON – dumps, loads - https://www.journaldev.com/16016/python-parse-json-dumps-loads
 JSON encoder and decoder - https://docs.python.org/3/library/json.html
@@ -334,4 +339,6 @@ __ Coding Exercises __
 https://code-exercises.com/blog/2020/05/23/best-code-kata-ever.html
 load Twitter API data into database - https://towardsdatascience.com/streaming-twitter-data-into-a-mysql-database-d62a02b050d6
 
--
+__ Tips - Guide for Using PyCharm __
+https://www.jetbrains.com/pycharm/guide/tips/
+
