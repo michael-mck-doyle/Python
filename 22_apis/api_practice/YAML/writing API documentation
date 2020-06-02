@@ -1,0 +1,36 @@
+Become a API technical writer:
+
+https://idratherbewriting.com/learnapidoc/index.html
+
+API documentation will describe:
+
+1. Endpoints available
+2. their methods
+3. parameters
+4. other details
+5. sample responses from the endpoints
+
+As a Technical Writer you will tackle each element of a reference topic in REST API documentation:
+
+1. Resource descriptions
+2. Endpoints and Methods
+3. Parameters
+4. Request example
+5. Response example
+
+Add Conceptual sections to your API documentation:
+1. Getting started tutorial
+2. Status and error codes
+3. Request authorisation
+
+Publishing your API documentation:
+1. Github, Jekyll etc..
+
+You will also learn to:
+1. Leverage templates
+2. Build interactive API consoles
+3. Manage content using version control
+4. Understand the main API specifications such as OpenAPI, Swagger UI
+5. document native library APIs
+6. generate Javadoc
+

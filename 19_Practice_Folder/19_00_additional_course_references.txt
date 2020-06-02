@@ -304,7 +304,8 @@ __ Building an API __
 How to Build an API From The Ground Up - https://swagger.io/blog/api-development/how-to-build-an-api/
 OpenAPI Specification - https://swagger.io/specification/
 API Design by Martin Fowler - https://www.martinfowler.com/tags/API%20design.html
-
+How to Build an API - https://apiary.io/how-to-build-api#architectural-style
+Documenting APIs Tutorial - https://idratherbewriting.com/learnapidoc/docapis_introtoapis.html
 
 __ JSON __
 Python Parse JSON – dumps, loads - https://www.journaldev.com/16016/python-parse-json-dumps-loads
@@ -351,6 +352,8 @@ __ Coding Nomads Lab API __
 http://demo.codingnomads.co:8081/tasks_api/swagger-ui.html#/user-controller/getUsersUsingGET
 
 __ YAML __
-YAML is a human friendly data serialization
-  standard for all programming languages.
-- https://yaml.org/
+https://yaml.org/
+YAML is a human friendly data serialization standard for all programming languages.
+PyYAML is a YAML parser and emitter for Python - https://pyyaml.org/wiki/PyYAML
+PyYAML Documentation - https://pyyaml.org/wiki/PyYAMLDocumentation
+pip install PyYAML
