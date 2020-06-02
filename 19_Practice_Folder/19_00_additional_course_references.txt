@@ -286,6 +286,7 @@ __ Data Science __
 Python Data Science Tutorials - http://python-ds.com/
 
 __ REST and Restful API's __
+The Open API initiative  - https://www.openapis.org/
 REST API Tutorial - https://www.restapitutorial.com/
 Webopedia - https://www.webopedia.com/TERM/H/HTTP.html
 Basics of Computer Networking - https://www.geeksforgeeks.org/basics-computer-networking/
@@ -302,6 +303,7 @@ HTTP Status codes -
 __ Building an API __
 How to Build an API From The Ground Up - https://swagger.io/blog/api-development/how-to-build-an-api/
 OpenAPI Specification - https://swagger.io/specification/
+API Design by Martin Fowler - https://www.martinfowler.com/tags/API%20design.html
 
 
 __ JSON __
@@ -334,6 +336,9 @@ __ Capstone Projects __
 
 __ Scrum references and exam __
 Suggested Reading for Professional Scrum Master - https://www.scrum.org/resources/suggested-reading-professional-scrum-master
+What is Scrum: An Introduction to the Scrum Framework - https://s3.amazonaws.com/static.scrum.org/Webinar+Slides/What+is+Scrum_Small.pdf
+Scrum values poster - https://www.scrum.org/resources/scrum-values-poster
+The Scrum Guide - https://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf#zoom=100
 
 __ Coding Exercises __
 https://code-exercises.com/blog/2020/05/23/best-code-kata-ever.html
@@ -342,3 +347,10 @@ load Twitter API data into database - https://towardsdatascience.com/streaming-t
 __ Tips - Guide for Using PyCharm __
 https://www.jetbrains.com/pycharm/guide/tips/
 
+__ Coding Nomads Lab API __
+http://demo.codingnomads.co:8081/tasks_api/swagger-ui.html#/user-controller/getUsersUsingGET
+
+__ YAML __
+YAML is a human friendly data serialization
+  standard for all programming languages.
+- https://yaml.org/
