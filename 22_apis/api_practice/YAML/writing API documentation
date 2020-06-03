@@ -1,6 +1,7 @@
 Become a API technical writer:
 
-https://idratherbewriting.com/learnapidoc/index.html
+Documenting APIs: A guide for technical writers and engineers - https://idratherbewriting.com/learnapidoc/index.html
+Thriving in the API doc space, Building a Portfolio for Career prospects - https://idratherbewriting.com/learnapidoc/jobapis.html
 
 API documentation will describe:
 
@@ -33,4 +34,22 @@ You will also learn to:
 4. Understand the main API specifications such as OpenAPI, Swagger UI
 5. document native library APIs
 6. generate Javadoc
+
+
+__ Tooling __
+1. Stoplight Studio provides visual modeling tools for working with the OpenAPI specification. - https://stoplight.io/p/studio
+2. Github
+3. Git
+4. Sublime text or other text editor
+5. Postman
+6. curl (used for making requests to endpoints from the command line)
+7. Chrome browser
+8. OpenWeatherMap API key
+
+__ Videos __
+Video recordings of API doc workshops - https://idratherbewriting.com/learnapidoc/docapis_course_videos.html
+
+__ Glossary __
+curl - curl is essential for making requests to endpoints from the command line. curl can be used to send Request to and
+ receive responses to/from an API in the CLI.
 

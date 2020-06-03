@@ -357,3 +357,7 @@ YAML is a human friendly data serialization standard for all programming languag
 PyYAML is a YAML parser and emitter for Python - https://pyyaml.org/wiki/PyYAML
 PyYAML Documentation - https://pyyaml.org/wiki/PyYAMLDocumentation
 pip install PyYAML
+
+
+__ Javascript __
+JavaScript: Introduction - https://idratherbewriting.com/javascript/
