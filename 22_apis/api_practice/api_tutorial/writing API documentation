@@ -51,5 +51,13 @@ Video recordings of API doc workshops - https://idratherbewriting.com/learnapido
 
 __ Glossary __
 curl - curl is essential for making requests to endpoints from the command line. curl can be used to send Request to and
- receive responses to/from an API in the CLI.
+ receive responses to/from an API in the CLI. cURL, which stands for client URL and can be written as curl
+ is a command line tool for file transfer with a URL syntax. It supports a number of protocols including HTTP, HTTPS, FTP,
+ and many more. HTTP/HTTPS makes it a great candidate for interacting with APIs.
+"curl --man" - brings up the curl manual
+What is cURL - https://dev.to/ibmdeveloper/what-is-curl-and-why-is-it-all-over-api-docs-9mh
+Saving curl Output - to save the output from a curl command use the format: curl "request_method" -o "output file name"
+
+
+
 
