@@ -1,3 +1,6 @@
+# Ignore the node_modules directory
+
+22_apis/api_practice/api_tutorial/API_request_with_keys
 .idea
 venv
 .DS_Store
