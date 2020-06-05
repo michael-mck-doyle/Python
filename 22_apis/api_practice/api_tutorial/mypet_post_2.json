@@ -1,0 +1,18 @@
+{
+  "id": 213,
+  "category": {
+    "id": 213,
+    "name": "test"
+  },
+  "name": "fluffington1",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}

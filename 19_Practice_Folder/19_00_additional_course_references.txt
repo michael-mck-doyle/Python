@@ -361,3 +361,6 @@ pip install PyYAML
 
 __ Javascript __
 JavaScript: Introduction - https://idratherbewriting.com/javascript/
+
+__ Using Web Sockets in Python __
+How to Transfer Files in the Network using Sockets in Python - https://www.thepythoncode.com/article/send-receive-files-using-sockets-python
