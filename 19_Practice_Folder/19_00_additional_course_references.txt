@@ -364,3 +364,6 @@ JavaScript: Introduction - https://idratherbewriting.com/javascript/
 
 __ Using Web Sockets in Python __
 How to Transfer Files in the Network using Sockets in Python - https://www.thepythoncode.com/article/send-receive-files-using-sockets-python
+
+__ Postman __
+Postman Learning Centre - https://learning.postman.com/docs/postman/sending-api-requests/requests/
