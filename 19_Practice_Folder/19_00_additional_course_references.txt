@@ -367,3 +367,22 @@ How to Transfer Files in the Network using Sockets in Python - https://www.thepy
 
 __ Postman __
 Postman Learning Centre - https://learning.postman.com/docs/postman/sending-api-requests/requests/
+
+
+__ Finding Open Source Projects to Contribute To __
+Start here, it gives good simple advice - https://idratherbewriting.com/learnapidoc/docapis_find_open_source_project.html
+https://help.github.com/en/github/getting-started-with-github/finding-ways-to-contribute-to-open-source-on-github
+testing help wanted Github - https://github.com/search?l=&p=3&q=testing+label%3A%22help+wanted%22&ref=advsearch&type=Issues
+API Documentation help wanted Github - https://github.com/search?q=API+documentation+label%3A%22help+wanted%22&type=Issues
+How to choose (and contribute to) your first open source project - https://github.com/collections/choosing-projects
+Contribute to open-source projects through documentation - https://www.mapzen.com/blog/open-source-docs/
+
+Other places to try for open source projects apart from Github:
+- Trending GitHub projects
+- Crowdforge
+- Up for Grabs
+- Bus Factor
+- Code Triage
+- Changelog
+- 24-hour Pull Requests
+- Programmableweb.com API directory
