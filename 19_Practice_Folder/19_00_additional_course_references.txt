@@ -391,3 +391,7 @@ Other places to try for open source projects apart from Github:
 - Changelog
 - 24-hour Pull Requests
 - Programmableweb.com API directory
+
+
+__ Python GUI Programming __
+Python - GUI Programming (Tkinter) - https://www.tutorialspoint.com/python/python_gui_programming.htm
