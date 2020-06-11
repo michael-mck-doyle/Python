@@ -1,5 +1,5 @@
-import tkinter as tk
-from tkinter import ttk # ttk has advanced widgets, it is an extension of ykinter
+import tkinter as tk  # Tkinter wraps Tcl/tk so that it can be used it in Python
+from tkinter import ttk # ttk has advanced widgets, it is an extension of tkinter
 win = tk.Tk()
 win.title("Python GUI")
 #this line adds a label to the gui

@@ -9,6 +9,8 @@ Print out:
     - the encoding of the response
     - the text of the response body
 
+
+
 '''
 
 import requests
