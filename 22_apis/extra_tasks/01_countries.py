@@ -8,3 +8,22 @@ In your python program, parse and compare the data of the two responses:
 * Print the native name of both countries, as well as their capitals
 
 '''
+import requests
+from pprint import pprint
+
+base = "https://restcountries.eu/rest/v2/name/philippines"
+
+
+response = requests.get(base)
+
+pprint(response.status_code)
+pprint(response.encoding)
+pprint(response.content)
+pprint(response.headers)
+
+# population
+# size (area)
+# native name
+# capital
+# 1. extract the information from the two countries and print to screen
+# 2. do a comparison of the aforementioned data features and print the results
