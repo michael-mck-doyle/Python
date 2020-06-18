@@ -322,6 +322,9 @@ install SQL Alchemy in venv - pip install sqlalchemy
 
 __ Web-Socket API vs RESTful API __
 WebSockets vs REST: Understanding the Difference - https://www.pubnub.com/blog/websockets-vs-rest-api-understanding-the-difference/
+The WebSocket API (WebSockets) - https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+How to Transfer Files in the Network using Sockets in Python - https://www.thepythoncode.com/article/send-receive-files-using-sockets-python
+
 
 
 __ WebSocket frameworks __
@@ -395,3 +398,5 @@ Other places to try for open source projects apart from Github:
 
 __ Python GUI Programming __
 Python - GUI Programming (Tkinter) - https://www.tutorialspoint.com/python/python_gui_programming.htm
+
+
