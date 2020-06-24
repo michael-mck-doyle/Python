@@ -399,4 +399,6 @@ Other places to try for open source projects apart from Github:
 __ Python GUI Programming __
 Python - GUI Programming (Tkinter) - https://www.tutorialspoint.com/python/python_gui_programming.htm
 
-
+__ Appium Python Client __
+Appium-Python-Client 1.0.1 - https://pypi.org/project/Appium-Python-Client/
+Visual Testing with Applitools, Appium, and Amazon AWS Device Farm - https://applitools.com/blog/visual-testing-appium-amazon/?

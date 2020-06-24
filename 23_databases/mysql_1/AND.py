@@ -7,11 +7,21 @@ engine = sqlalchemy.create_engine('mysql+pymysql://root:fidessa01@localhost/saki
 connection = engine.connect()
 metadata = sqlalchemy.MetaData()
 actor = sqlalchemy.Table('actor', metadata, autoload=True, autoload_with=engine)
+film = sqlalchemy.Table('film', metadata, autoload=True, autoload_with=engine)
 
-query = sqlalchemy.select([actor]).where(actor.columns.first_name.in_(["PENELOPE", "UMA", "JOHN"]))
-#query = sqlalchemy.select([actor])
+# AND query
+query = sqlalchemy.select([film]).where(sqlalchemy.and_(film.columns.length > 60, film.columns.rating == "PG"))
+
+# NOT query
+#query = sqlalchemy.select([film]).where(sqlalchemy.and_(film.columns.length > 60, film.columns.rating == "PG"))
+
+# OR query
+query = sqlalchemy.select([film]).where(sqlalchemy.or_(film.columns.length > 60, film.columns.rating == "PG"))
+
+
 result_proxy = connection.execute(query)
 
 result_set = result_proxy.fetchall()
 #result_set = result_proxy.fetchmany(5)
-pprint(resumkdilt_set)
+pprint(result_set)
+
