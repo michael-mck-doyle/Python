@@ -3,7 +3,7 @@ import pymysql
 from pprint import pprint
 
 # run a select statement on a db table
-engine = sqlalchemy.create_engine('mysql+pymysql://root:$C0d1nGPyth0N@localhost/sakila')
+engine = sqlalchemy.create_engine('mysql+pymysql://root:add_pwd@localhost/sakila')
 connection = engine.connect()
 metadata = sqlalchemy.MetaData()
 

@@ -1,7 +1,7 @@
 import sqlalchemy
 from pprint import pprint
 
-engine = sqlalchemy.create_engine('mysql+pymysql://root:$C0d1nGPyth0N@localhost/sakila')
+engine = sqlalchemy.create_engine('mysql+pymysql://root:add_pwd@localhost/sakila')
 
 connection = engine.connect()
 metadata = sqlalchemy.MetaData()
