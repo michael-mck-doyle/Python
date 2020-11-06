@@ -18,8 +18,10 @@ while len(tally) < nums_entered:
 
 tally.sort()
 print("'tally' list before converting input to int: " + str(tally))
+
 tally = [int(x) for x in tally]
 tally.sort()
+
 print("'tally' list after converting input to int: " + str(tally))
 
 print("Largest element is:", max(tally))

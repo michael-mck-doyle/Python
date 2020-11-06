@@ -1,5 +1,5 @@
 '''
-Using f-strings, print out the name, last name, and quote of each person in the given dictionary,
+Using f-strings, print out the first name, last name, and quote of each person in the given dictionary,
 formatted like so:
 
 "The inspiring quote" - Lastname, Firstname
@@ -21,11 +21,22 @@ famous_quotes = [
     {"full_name": "Alan Bennett", "quote": "Standards are always out of date.  That’s what makes them standards."}
 ]
 
-c = 0
 
-for i in famous_quotes:
-    print(f"{famous_quotes}")
-    #print(i)
+for full_name, quote in famous_quotes:
+    first_name = full_name
+    print(first_name)
+
+       # users = {'mary': 22, 'caroline': 26, 'harry': 20}
+
+        #for user, age in users.items():
+         #   print(user, age)
+
+
+
 
 print("finished")
-
+'''
+x = "Hello"
+y = "World"
+print(f"Hello{y: >50s}")
+'''
