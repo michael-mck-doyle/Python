@@ -7,25 +7,34 @@
 # In order to communicate using the WebSocket protocol, you need to create a WebSocket object;
 # this will automatically attempt to open the connection to the server.
 
-import asyncio
-import logging
-import websockets
 
-logging.basicConfig(level=logging.INFO)
+'''
+pip install websocket-client
+pip install websockets
 
+https://realpython.com/python-sockets/
+https://exchange.blockchain.com/api/#introduction
+https://www.blockchain.com/api
 
-async def consumer_handler(websocket: WebSocketClientProtocol) ->None:
-    async for message in websocket:
-        log_message(message)
+'''
 
-
-async def consume(hostname: str, port: int) -> None:
-    websocket_resource_url = f"ws://{hostname}:{port}"
-    async with websockets.connect(websocket_resource_url) as websocket:
-        await consumer_handler(websocket)
+from websocket import create_connection
 
 
-def log_message(message: str) -> None:
-    logging.info(f"Message: {message}")
+options = {}
+
+
+options['origin'] = 'https://exchange.blockchain.com'
+url = "wss://ws.prod.blockchain.info/mercury-gateway/v1/ws"
+ws = create_connection(url, **options)
+msg = '{"token": "{API_SECRET}", "action": "subscribe", "channel": "auth"}'
+ws.send(msg)
+result =  ws.recv()
+print(result)
+# { "seqnum":0,
+#   "event":"subscribed",
+#   "channel":"auth",
+#   "readOnly":false }
+ws.close()
 
 
