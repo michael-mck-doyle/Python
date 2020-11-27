@@ -1,3 +1,5 @@
+
+# Example 1
 glob = 2
 
 # you can use the ""variable_name" in globals()" to confirm if a variable is indeed a global variable
@@ -19,6 +21,8 @@ fun()
 print()
 print()
 
+
+# Example 2
 name = "Harry"
 print(name)
 
@@ -31,5 +35,15 @@ def names():
 
 names()
 
+print()
+print()
 
-###
+# Example 3
+
+# fix the code so it works as expected
+def shout(name):
+  loud_name = name.upper()
+  return loud_name
+
+x = shout("wilma")
+print(x)
